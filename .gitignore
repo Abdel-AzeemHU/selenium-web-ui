@@ -1,5 +1,5 @@
 .idea/
-!.gitkeep
 drivers/*
 target/
 selenuim-web-ui.iml
+!.gitkeep
