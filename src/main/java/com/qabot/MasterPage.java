@@ -1,7 +1,12 @@
 package com.qabot;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,33 +15,36 @@ import java.util.Properties;
 
 public class MasterPage {
 
-    public WebDriver driver;
+    protected WebDriver driver ;
+    public JavascriptExecutor jse ;
+    public Select select ;
+    public Actions action ;
 
-    public WebDriver initializeDriver() throws IOException {
+    // create constructor
+    public MasterPage(WebDriver driver)
+    {
+        PageFactory.initElements(driver, this);
+    }
 
-        // Chrome driver
-        Properties prop = new Properties();
-        FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/properties/userdata.properties");
-        prop.load(file);
-        String browserName = prop.getProperty("browser");
-        System.out.println(browserName);
+    protected static void clickButton(WebElement button)
+    {
+        button.click();
+    }
 
-        if (browserName.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-            driver = new ChromeDriver();
+    protected static void setTextElementText(WebElement textElement , String value)
+    {
+        textElement.sendKeys(value);
+    }
 
-        } else if (browserName.equals("firefox")) {
-            // Firefox code
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-            driver = new ChromeDriver();
+    public void scrollToBottom()
 
-        } else if (browserName.equals("IE")) {
-            // IE code
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-            driver = new ChromeDriver();
-        }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        return driver;
+    {
+        jse.executeScript("scrollBy(0,2500)");
+    }
+
+    public void clearText(WebElement element)
+    {
+        element.clear();
     }
 
 }
