@@ -5,6 +5,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.remote.CapabilityType;
 
@@ -22,6 +24,10 @@ public abstract class Driver {
             WebDriverManager.chromedriver().setup();
             return new ChromeDriver(chromeOptions(h));
         });
+        map.put(Browser.FIREFOX.browserName(), (h)-> {
+            WebDriverManager.firefoxdriver().setup();
+            return new FirefoxDriver(firefoxOptions(h));
+        } );
     }
 
     public static WebDriver createDriver() {
@@ -56,6 +62,18 @@ public abstract class Driver {
         if (headless) {
             options.setHeadless(true);
             options.addArguments("window-size=2000,1080");
+        }
+        return options;
+    }
+
+    private static FirefoxOptions firefoxOptions(boolean headless) {
+        FirefoxOptions options = new FirefoxOptions();
+        //option.addPreference("browser.download.folderList", 2);
+        //option.addPreference("browser.helperApps.neverAsk.saveToDisk", "application/pdf");
+        //option.addPreference("browser.download.manager.showWhenStarting", false);
+        //option.addPreference("pdfjs.disabled", true);
+        if (headless) {
+            options.setHeadless(true);
         }
         return options;
     }
