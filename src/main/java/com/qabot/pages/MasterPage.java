@@ -10,33 +10,31 @@ import org.openqa.selenium.support.ui.Select;
 public class MasterPage {
 
     protected WebDriver driver ;
-    public JavascriptExecutor jse ;
-    public Select select ;
-    public Actions action ;
+    protected JavascriptExecutor jse ;
+    protected Select select ;
+    protected Actions action ;
 
-    // create constructor
     public MasterPage(WebDriver driver)
     {
         PageFactory.initElements(driver, this);
     }
 
-    protected static void clickButton(WebElement button)
+    protected void clickButton(WebElement button)
     {
         button.click();
     }
 
-    protected static void setTextElementText(WebElement textElement , String value)
+    protected void setTextElementText(WebElement textElement , String value)
     {
         textElement.sendKeys(value);
     }
 
-    public void scrollToBottom()
-
+    protected void scrollToBottom()
     {
-        jse.executeScript("scrollBy(0,2500)");
+        jse.executeScript("scrollTo(0, document.body.scrollHeight)");
     }
 
-    public void clearText(WebElement element)
+    protected void clearText(WebElement element)
     {
         element.clear();
     }
