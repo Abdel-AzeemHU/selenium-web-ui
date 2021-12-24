@@ -17,13 +17,7 @@ public class HomePage extends MasterPage {
         clickButton(link);
         try {
              newPage = page.getDeclaredConstructor(WebDriver.class).newInstance(driver);
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
+        } catch (ReflectiveOperationException e) {
             e.printStackTrace();
         }
         return newPage;

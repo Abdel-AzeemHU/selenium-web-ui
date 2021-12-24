@@ -1,6 +1,5 @@
 package com.qabot.utils;
 
-import com.fasterxml.jackson.databind.annotation.JsonAppend;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
