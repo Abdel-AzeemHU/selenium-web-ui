@@ -8,15 +8,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 public class MasterPage {
+    protected WebDriver driver;
+    protected JavascriptExecutor jse;
+    protected Select select;
+    protected Actions action;
 
-    protected WebDriver driver ;
-    protected JavascriptExecutor jse ;
-    protected Select select ;
-    protected Actions action ;
-
-    public MasterPage(WebDriver driver)
-    {
+    public MasterPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
     protected void clickButton(WebElement button)
@@ -38,5 +37,4 @@ public class MasterPage {
     {
         element.clear();
     }
-
 }
