@@ -11,6 +11,8 @@
             <class name="com.qabot.BrokenImageTest" />
             <class name="com.qabot.DomTest" />
             <class name="com.qabot.DynamicLoadingTest" />
+            <class name="com.qabot.CheckBoxesTest"/>
+            <class name="com.qabot.ContextMenuTest"/>
         </classes>
     </test>
 </suite>
