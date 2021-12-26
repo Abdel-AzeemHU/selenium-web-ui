@@ -5,6 +5,8 @@
         <classes>
             <class name="com.qabot.ABTestingTest"/>
             <class name="com.qabot.AddElementTest"/>
+            <class name="com.qabot.CheckBoxesTest"/>
+            <class name="com.qabot.ContextMenuTest"/>
         </classes>
     </test>
 </suite>
