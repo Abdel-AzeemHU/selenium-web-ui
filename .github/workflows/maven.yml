@@ -1,7 +1,7 @@
 name: Java CI with Maven
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     
   workflow_dispatch:
 
@@ -34,7 +34,7 @@ jobs:
       if: always()
       with:
         name: JUnit Test Report
-        path: build/test-results/test/TEST-*.xml
+        path: target/surefire-reports/**/TEST-*.xml
         reporter: java-junit
         fail-on-error: 'false'
         
