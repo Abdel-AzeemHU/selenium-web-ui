@@ -14,9 +14,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-public abstract class Driver {
+public class DriverGenerator {
     private final static Map<String, Function<Boolean, WebDriver>> map = new HashMap<>();
-    private static WebDriver driver = null;
+    private static final ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 
     static {
         map.put(Browser.CHROME.browserName(),(h)-> {
@@ -31,12 +31,22 @@ public abstract class Driver {
 
     public static WebDriver createDriver() {
         boolean headless = Boolean.parseBoolean(PropertyReader.getProperty("headless"));
-        driver = createDriverInstance(headless);
+        WebDriver driver = createDriverInstance(headless);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(100));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(100));
         driver.manage().window().maximize();
-        return driver;
+        tdriver.set(driver);
+        return getDriver();
+    }
+
+    public static synchronized WebDriver getDriver() {
+        return tdriver.get();
+    }
+
+    public static void stopDriver() {
+        getDriver().quit();
+        tdriver.remove();
     }
 
     private static WebDriver createDriverInstance(boolean headless) {

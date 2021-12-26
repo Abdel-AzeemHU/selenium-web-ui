@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="classes" thread-count="3">
-    <test verbose="2" preserve-order="false" name="Test name" >
+    <listeners>
+        <listener class-name="com.qabot.loggers.AllureListener" />
+    </listeners>
+    <test verbose="2" preserve-order="false" name="Test name">
         <classes>
-            <class name="com.qabot.ABTestingTest"/>
-            <class name="com.qabot.AddElementTest"/>
+            <class name="com.qabot.ABTestingTest" />
+            <class name="com.qabot.AddElementTest" />
+            <class name="com.qabot.BrokenImageTest" />
+            <class name="com.qabot.DomTest" />
+            <class name="com.qabot.DynamicLoadingTest" />
             <class name="com.qabot.CheckBoxesTest"/>
             <class name="com.qabot.ContextMenuTest"/>
         </classes>
