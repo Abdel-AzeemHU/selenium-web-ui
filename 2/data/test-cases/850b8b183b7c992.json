@@ -1,0 +1,161 @@
+{
+  "uid" : "850b8b183b7c992",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "fullName" : "com.qabot.CheckBoxesTest.checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected",
+  "historyId" : "b8856f8cec92366b315f044ae371a794",
+  "time" : {
+    "start" : 1640545593992,
+    "stop" : 1640545594466,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1640545588949,
+      "stop" : 1640545593900,
+      "duration" : 4951
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1640545593900,
+      "stop" : 1640545593900,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Checkboxes link to open class com.qabot.pages.CheckBoxesPage page",
+      "time" : {
+        "start" : 1640545594038,
+        "stop" : 1640545594295,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Checkboxes"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.CheckBoxesPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1640545594469,
+      "stop" : 1640545594563,
+      "duration" : 94
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-768"
+  }, {
+    "name" : "thread",
+    "value" : "2795@fv-az190-768.TestNG-test=Test name-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8c7739b4448e546a",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/8c7739b4448e546a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540940044,
+          "stop" : 1640540940687,
+          "duration" : 643
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "850b8b183b7c992.json",
+  "parameterValues" : [ ]
+}
