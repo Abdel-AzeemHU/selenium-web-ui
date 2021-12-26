@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+  report:
+    image: nginx:1.14
+    ports:
+    - "8000:80"
+    volumes:
+    - maven-report:/usr/share/nginx/html
+
+  test:
+    image: amadosaladino/se
+    entrypoint: /app/entrypoint.sh
+    volumes:
+    - .:/app
+    - maven-repo:/root/.m2
+    - maven-report:/report
+
+volumes:
+  maven-repo:
+  maven-report:

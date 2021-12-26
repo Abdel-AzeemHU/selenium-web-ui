@@ -1,5 +1,7 @@
 .idea/
 drivers/*
 target/
+allure-results/
+allure-report/
 selenuim-web-ui.iml
 !.gitkeep
