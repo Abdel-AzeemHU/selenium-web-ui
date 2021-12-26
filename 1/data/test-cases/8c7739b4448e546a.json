@@ -1,0 +1,141 @@
+{
+  "uid" : "8c7739b4448e546a",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "fullName" : "com.qabot.CheckBoxesTest.checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected",
+  "historyId" : "b8856f8cec92366b315f044ae371a794",
+  "time" : {
+    "start" : 1640540940044,
+    "stop" : 1640540940687,
+    "duration" : 643
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1640540927693,
+      "stop" : 1640540939905,
+      "duration" : 12212
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1640540939929,
+      "stop" : 1640540939929,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Checkboxes link to open class com.qabot.pages.CheckBoxesPage page",
+      "time" : {
+        "start" : 1640540940084,
+        "stop" : 1640540940488,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Checkboxes"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.CheckBoxesPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1640540940724,
+      "stop" : 1640540940801,
+      "duration" : 77
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-410"
+  }, {
+    "name" : "thread",
+    "value" : "2799@fv-az278-410.TestNG-test=Test name-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c7739b4448e546a.json",
+  "parameterValues" : [ ]
+}

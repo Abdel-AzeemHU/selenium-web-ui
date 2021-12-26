@@ -1,0 +1,101 @@
+[ {
+  "uid" : "7d763370714d2734",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "time" : {
+    "start" : 1640540940044,
+    "stop" : 1640540940682,
+    "duration" : 638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c0139ec8320814e",
+  "name" : "Find images with broken links",
+  "time" : {
+    "start" : 1640540942456,
+    "stop" : 1640540942837,
+    "duration" : 381
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5571514f3487326",
+  "name" : "validate the page loads correctly",
+  "time" : {
+    "start" : 1640540944736,
+    "stop" : 1640540944990,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "269e47c22283c464",
+  "name" : "Click context menu  ",
+  "time" : {
+    "start" : 1640540942539,
+    "stop" : 1640540943013,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db3fdee54796891d",
+  "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+  "time" : {
+    "start" : 1640540940043,
+    "stop" : 1640540981055,
+    "duration" : 41012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2467cd4b57d9b28a",
+  "name" : "validate the right page",
+  "time" : {
+    "start" : 1640540944730,
+    "stop" : 1640540945096,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2634f7ef2bcc51d5",
+  "name" : "validate the hidden content shows up with the right text",
+  "time" : {
+    "start" : 1640540944992,
+    "stop" : 1640540950400,
+    "duration" : 5408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c7739b4448e546a",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "time" : {
+    "start" : 1640540940044,
+    "stop" : 1640540940687,
+    "duration" : 643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b058bd553f8067b",
+  "name" : "Validate number of broken images (2)",
+  "time" : {
+    "start" : 1640540942840,
+    "stop" : 1640540942952,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "861b826c3d2f7eb",
+  "name" : "validate column header",
+  "time" : {
+    "start" : 1640540945098,
+    "stop" : 1640540945416,
+    "duration" : 318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
