@@ -13,6 +13,9 @@
             <class name="com.qabot.DynamicLoadingTest" />
             <class name="com.qabot.CheckBoxesTest"/>
             <class name="com.qabot.ContextMenuTest"/>
+            <class name="com.qabot.DynamicControlTest" />
+            <class name="com.qabot.LoginTest" />
+            <class name="com.qabot.LargeDOMTest" />
         </classes>
     </test>
 </suite>
