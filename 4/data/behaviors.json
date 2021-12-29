@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+    "uid" : "3f1156030bff9af2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803466706,
+      "stop" : 1640803507891,
+      "duration" : 41185
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click A/B Testing link and check the Header and Content",
+    "uid" : "b5e4fd9b31863ad5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803466706,
+      "stop" : 1640803467358,
+      "duration" : 652
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+    "uid" : "1373bfe680815d3b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803466709,
+      "stop" : 1640803467379,
+      "duration" : 670
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Find images with broken links",
+    "uid" : "af9f4273d3d8a0ad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803468890,
+      "stop" : 1640803469162,
+      "duration" : 272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click context menu and perform the right click and accept the alert",
+    "uid" : "75914bfa1cce8757",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803468890,
+      "stop" : 1640803469356,
+      "duration" : 466
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate number of broken images (2)",
+    "uid" : "6ca7e18829178663",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803469166,
+      "stop" : 1640803469283,
+      "duration" : 117
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the right page",
+    "uid" : "fa04684b5f9133c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803470633,
+      "stop" : 1640803470946,
+      "duration" : 313
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the page loads correctly",
+    "uid" : "6ddefd82d22368d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803470654,
+      "stop" : 1640803470885,
+      "duration" : 231
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the hidden content shows up with the right text",
+    "uid" : "c67c90def23290cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803470889,
+      "stop" : 1640803476260,
+      "duration" : 5371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate column header",
+    "uid" : "36d368a5ecda2940",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640803470949,
+      "stop" : 1640803471307,
+      "duration" : 358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
