@@ -1,0 +1,209 @@
+{
+  "uid" : "18282ebe8a0456bb",
+  "name" : "Validate number of broken images (2)",
+  "fullName" : "com.qabot.BrokenImageTest.testBrokenImages",
+  "historyId" : "3fb7deb54b45543ebcbed42d98fbccd9",
+  "time" : {
+    "start" : 1641056718354,
+    "stop" : 1641056718872,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641056701967,
+      "stop" : 1641056716886,
+      "duration" : 14919
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641056718323,
+      "stop" : 1641056718323,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "validate there are 2 broken images",
+      "time" : {
+        "start" : 1641056718376,
+        "stop" : 1641056718872,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641056718886,
+      "stop" : 1641056719281,
+      "duration" : 395
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.BrokenImageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.BrokenImageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testBrokenImages"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.BrokenImageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-504"
+  }, {
+    "name" : "thread",
+    "value" : "2778@fv-az275-504.TestNG-test=Test name-5(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "18c7510053d4638b",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/7//#testresult/18c7510053d4638b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055187328,
+          "stop" : 1641055187762,
+          "duration" : 434
+        }
+      }, {
+        "uid" : "44cb4d7308770c40",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/6//#testresult/44cb4d7308770c40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053656010,
+          "stop" : 1641053656371,
+          "duration" : 361
+        }
+      }, {
+        "uid" : "c2685d755d85b8a8",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/c2685d755d85b8a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053494500,
+          "stop" : 1641053494919,
+          "duration" : 419
+        }
+      }, {
+        "uid" : "6ca7e18829178663",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/6ca7e18829178663",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803469166,
+          "stop" : 1640803469283,
+          "duration" : 117
+        }
+      }, {
+        "uid" : "551def564dca020e",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/551def564dca020e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779439215,
+          "stop" : 1640779439393,
+          "duration" : 178
+        }
+      }, {
+        "uid" : "3b5f248b1973353c",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/3b5f248b1973353c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545596062,
+          "stop" : 1640545596195,
+          "duration" : 133
+        }
+      }, {
+        "uid" : "1b058bd553f8067b",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/1b058bd553f8067b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540942840,
+          "stop" : 1640540942952,
+          "duration" : 112
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "18282ebe8a0456bb.json",
+  "parameterValues" : [ ]
+}

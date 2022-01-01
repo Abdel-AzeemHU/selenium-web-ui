@@ -1,0 +1,141 @@
+[ {
+  "uid" : "7201552cf2f22eff",
+  "name" : "validate the page loads correctly",
+  "time" : {
+    "start" : 1641056717158,
+    "stop" : 1641056718304,
+    "duration" : 1146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9be19e83e6fd5c34",
+  "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+  "time" : {
+    "start" : 1641056717159,
+    "stop" : 1641056759737,
+    "duration" : 42578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5541950060c805bb",
+  "name" : "Check if the file uploaded successfully",
+  "time" : {
+    "start" : 1641056722300,
+    "stop" : 1641056722412,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "451614fe0802dacc",
+  "name" : "Find images with broken links",
+  "time" : {
+    "start" : 1641056717159,
+    "stop" : 1641056718273,
+    "duration" : 1114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "487adf9cbbb58981",
+  "name" : "Upload file and check if the file uploaded successfully",
+  "time" : {
+    "start" : 1641056721438,
+    "stop" : 1641056722280,
+    "duration" : 842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70fe850f8309e197",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "time" : {
+    "start" : 1641056717158,
+    "stop" : 1641056719346,
+    "duration" : 2188
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "18282ebe8a0456bb",
+  "name" : "Validate number of broken images (2)",
+  "time" : {
+    "start" : 1641056718354,
+    "stop" : 1641056718872,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e08da6cd7ac901ec",
+  "name" : "Check the popup header and body text",
+  "time" : {
+    "start" : 1641056721533,
+    "stop" : 1641056722561,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b42b6e6cc9f31fc8",
+  "name" : "validate the hidden content shows up with the right text",
+  "time" : {
+    "start" : 1641056718319,
+    "stop" : 1641056724473,
+    "duration" : 6154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3010c84be2646b57",
+  "name" : "Click context menu and perform the right click and accept the alert",
+  "time" : {
+    "start" : 1641056717161,
+    "stop" : 1641056718711,
+    "duration" : 1550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0a2eb1fa052a1c9",
+  "name" : "validate the right page",
+  "time" : {
+    "start" : 1641056717162,
+    "stop" : 1641056718361,
+    "duration" : 1199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c5a5daff3dd1773",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "time" : {
+    "start" : 1641056717159,
+    "stop" : 1641056718510,
+    "duration" : 1351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b48a7154fb64a60",
+  "name" : "validate column header",
+  "time" : {
+    "start" : 1641056718364,
+    "stop" : 1641056719635,
+    "duration" : 1271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0ddb76eac7e73be",
+  "name" : "Close the popup after verifying the header and body",
+  "time" : {
+    "start" : 1641056722571,
+    "stop" : 1641056722651,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

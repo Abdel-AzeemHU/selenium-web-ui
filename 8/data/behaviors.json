@@ -1,0 +1,187 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "validate the page loads correctly",
+    "uid" : "7201552cf2f22eff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056717158,
+      "stop" : 1641056718304,
+      "duration" : 1146
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click A/B Testing link and check the Header and Content",
+    "uid" : "70fe850f8309e197",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1641056717158,
+      "stop" : 1641056719346,
+      "duration" : 2188
+    },
+    "flaky" : true,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+    "uid" : "9be19e83e6fd5c34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056717159,
+      "stop" : 1641056759737,
+      "duration" : 42578
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Find images with broken links",
+    "uid" : "451614fe0802dacc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056717159,
+      "stop" : 1641056718273,
+      "duration" : 1114
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+    "uid" : "7c5a5daff3dd1773",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056717159,
+      "stop" : 1641056718510,
+      "duration" : 1351
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click context menu and perform the right click and accept the alert",
+    "uid" : "3010c84be2646b57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056717161,
+      "stop" : 1641056718711,
+      "duration" : 1550
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the right page",
+    "uid" : "f0a2eb1fa052a1c9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056717162,
+      "stop" : 1641056718361,
+      "duration" : 1199
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the hidden content shows up with the right text",
+    "uid" : "b42b6e6cc9f31fc8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056718319,
+      "stop" : 1641056724473,
+      "duration" : 6154
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate number of broken images (2)",
+    "uid" : "18282ebe8a0456bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056718354,
+      "stop" : 1641056718872,
+      "duration" : 518
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate column header",
+    "uid" : "2b48a7154fb64a60",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056718364,
+      "stop" : 1641056719635,
+      "duration" : 1271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Upload file and check if the file uploaded successfully",
+    "uid" : "487adf9cbbb58981",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056721438,
+      "stop" : 1641056722280,
+      "duration" : 842
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the popup header and body text",
+    "uid" : "e08da6cd7ac901ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056721533,
+      "stop" : 1641056722561,
+      "duration" : 1028
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check if the file uploaded successfully",
+    "uid" : "5541950060c805bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056722300,
+      "stop" : 1641056722412,
+      "duration" : 112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Close the popup after verifying the header and body",
+    "uid" : "b0ddb76eac7e73be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641056722571,
+      "stop" : 1641056722651,
+      "duration" : 80
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

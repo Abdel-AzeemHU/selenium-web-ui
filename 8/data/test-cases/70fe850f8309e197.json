@@ -1,0 +1,238 @@
+{
+  "uid" : "70fe850f8309e197",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "fullName" : "com.qabot.ABTestingTest.testABTestingContentAndHeader",
+  "historyId" : "bd0c0e6440c99e2d941d5a6de84b8ed4",
+  "time" : {
+    "start" : 1641056717158,
+    "stop" : 1641056719346,
+    "duration" : 2188
+  },
+  "status" : "failed",
+  "statusMessage" : "expected [true] but found [false]",
+  "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertTrue(Assert.java:45)\n\tat org.testng.Assert.assertTrue(Assert.java:55)\n\tat com.qabot.ABTestingTest.testABTestingContentAndHeader(ABTestingTest.java:12)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641056716922,
+      "stop" : 1641056716926,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641056701967,
+      "stop" : 1641056716887,
+      "duration" : 14920
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [true] but found [false]",
+    "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertTrue(Assert.java:45)\n\tat org.testng.Assert.assertTrue(Assert.java:55)\n\tat com.qabot.ABTestingTest.testABTestingContentAndHeader(ABTestingTest.java:12)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+    "steps" : [ {
+      "name" : "Click A/B Testing link to open class com.qabot.pages.ABTestingPage page",
+      "time" : {
+        "start" : 1641056717219,
+        "stop" : 1641056718084,
+        "duration" : 865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "A/B Testing"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.ABTestingPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3e9f4f533ed6236a",
+      "name" : "Page screenshot",
+      "source" : "3e9f4f533ed6236a.png",
+      "type" : "image/png",
+      "size" : 51540
+    }, {
+      "uid" : "813a2082e3b46c5a",
+      "name" : "expected [true] but found [false]",
+      "source" : "813a2082e3b46c5a.txt",
+      "type" : "text/plain",
+      "size" : 33
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641056719363,
+      "stop" : 1641056719461,
+      "duration" : 98
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.ABTestingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.ABTestingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testABTestingContentAndHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.ABTestingTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-504"
+  }, {
+    "name" : "thread",
+    "value" : "2778@fv-az275-504.TestNG-test=Test name-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "4181e6ed57d2b72a",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/7//#testresult/4181e6ed57d2b72a",
+        "status" : "failed",
+        "statusDetails" : "expected [true] but found [false]",
+        "time" : {
+          "start" : 1641055186565,
+          "stop" : 1641055187310,
+          "duration" : 745
+        }
+      }, {
+        "uid" : "b581eac7b32127f4",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/6//#testresult/b581eac7b32127f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655129,
+          "stop" : 1641053656059,
+          "duration" : 930
+        }
+      }, {
+        "uid" : "793f28e03057845c",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/793f28e03057845c",
+        "status" : "failed",
+        "statusDetails" : "expected [true] but found [false]",
+        "time" : {
+          "start" : 1641053493619,
+          "stop" : 1641053494500,
+          "duration" : 881
+        }
+      }, {
+        "uid" : "b5e4fd9b31863ad5",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/b5e4fd9b31863ad5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803466706,
+          "stop" : 1640803467358,
+          "duration" : 652
+        }
+      }, {
+        "uid" : "205458161f1a1352",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/205458161f1a1352",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779436866,
+          "stop" : 1640779437554,
+          "duration" : 688
+        }
+      }, {
+        "uid" : "68a3e9771aa2733b",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/68a3e9771aa2733b",
+        "status" : "failed",
+        "statusDetails" : "expected [true] but found [false]",
+        "time" : {
+          "start" : 1640545593995,
+          "stop" : 1640545594398,
+          "duration" : 403
+        }
+      }, {
+        "uid" : "7d763370714d2734",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/7d763370714d2734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540940044,
+          "stop" : 1640540940682,
+          "duration" : 638
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "70fe850f8309e197.json",
+  "parameterValues" : [ ]
+}

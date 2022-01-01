@@ -1,0 +1,131 @@
+{
+  "uid" : "5541950060c805bb",
+  "name" : "Check if the file uploaded successfully",
+  "fullName" : "com.qabot.FileUploadTest.checkTheFileUploadSuccess",
+  "historyId" : "b32490010e298d6481e42da5224519bf",
+  "time" : {
+    "start" : 1641056722300,
+    "stop" : 1641056722412,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641056718986,
+      "stop" : 1641056721433,
+      "duration" : 2447
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641056722284,
+      "stop" : 1641056722285,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641056722413,
+      "stop" : 1641056722493,
+      "duration" : 80
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.FileUploadTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.FileUploadTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkTheFileUploadSuccess"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.FileUploadTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-504"
+  }, {
+    "name" : "thread",
+    "value" : "2778@fv-az275-504.TestNG-test=Test name-4(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dc957f4efc961a8e",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/7//#testresult/dc957f4efc961a8e",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#uploaded\\-files\"}\n  (Session info: headless chrome=96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'fv-az129-782', ip: '10.1.0.180', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fb85439875617632e9df14493b9824f4, findElement {using=id, value=uploaded-files}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.KPhPXy}, goog:chromeOptions: {debuggerAddress: localhost:44961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44961/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fb85439875617632e9df14493b9824f4",
+        "time" : {
+          "start" : 1641055189986,
+          "stop" : 1641055230091,
+          "duration" : 40105
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5541950060c805bb.json",
+  "parameterValues" : [ ]
+}
