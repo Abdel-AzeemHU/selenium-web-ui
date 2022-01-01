@@ -23,6 +23,7 @@ public class FileUploadTest extends MasterTest{
         softAssert.assertTrue(fileUploadPage.getHeaderTextAfterUpload());
         System.out.println("The header after the file uploaded successfully is: " + fileUploadPage.getTheHeaderText());
         System.out.println("The file uploaded name is: " + fileUploadPage.getUploadedFileName());
+        softAssert.assertAll();
     }
 
 }
