@@ -1,0 +1,185 @@
+{
+  "uid" : "bdb9e1ab14d66a0a",
+  "name" : "Show the checkbox",
+  "fullName" : "com.qabot.DynamicControlTest.testAddCheckbox",
+  "historyId" : "344107d525f053ad4c05b6fb471a144a",
+  "time" : {
+    "start" : 1641057165076,
+    "stop" : 1641057168222,
+    "duration" : 3146
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641057107357,
+      "stop" : 1641057120102,
+      "duration" : 12745
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641057165075,
+      "stop" : 1641057165075,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Add button to show checkbox",
+      "time" : {
+        "start" : 1641057165077,
+        "stop" : 1641057168185,
+        "duration" : 3108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get checkbox message",
+      "time" : {
+        "start" : 1641057168185,
+        "stop" : 1641057168206,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get the text of Add / Remove button",
+      "time" : {
+        "start" : 1641057168206,
+        "stop" : 1641057168222,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641057174549,
+      "stop" : 1641057174617,
+      "duration" : 68
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.DynamicControlTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.DynamicControlTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddCheckbox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.DynamicControlTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-504"
+  }, {
+    "name" : "thread",
+    "value" : "2944@fv-az275-504.TestNG-test=Test name-7(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c6a8414356a086c5",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/c6a8414356a086c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779484217,
+          "stop" : 1640779487374,
+          "duration" : 3157
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bdb9e1ab14d66a0a.json",
+  "parameterValues" : [ ]
+}

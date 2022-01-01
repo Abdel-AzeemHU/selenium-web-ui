@@ -1,0 +1,191 @@
+{
+  "uid" : "3c285332d0a19d7e",
+  "name" : "Success login",
+  "fullName" : "com.qabot.LoginTest.testLoginSuccess",
+  "historyId" : "7e288e9e6a478ff3acc7412dfdcbe76c",
+  "time" : {
+    "start" : 1641057125322,
+    "stop" : 1641057127635,
+    "duration" : 2313
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641057125313,
+      "stop" : 1641057125313,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641057122714,
+      "stop" : 1641057125312,
+      "duration" : 2598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Form Authentication link to open class com.qabot.pages.LoginPage page",
+      "time" : {
+        "start" : 1641057125322,
+        "stop" : 1641057126226,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Form Authentication"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.LoginPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "validate the right page",
+      "time" : {
+        "start" : 1641057126227,
+        "stop" : 1641057126309,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "validate the right page",
+      "time" : {
+        "start" : 1641057127568,
+        "stop" : 1641057127635,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641057128197,
+      "stop" : 1641057128275,
+      "duration" : 78
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginSuccess"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-504"
+  }, {
+    "name" : "thread",
+    "value" : "2944@fv-az275-504.TestNG-test=Test name-6(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ef11e4e39ab07b39",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/ef11e4e39ab07b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779449086,
+          "stop" : 1640779449810,
+          "duration" : 724
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c285332d0a19d7e.json",
+  "parameterValues" : [ ]
+}

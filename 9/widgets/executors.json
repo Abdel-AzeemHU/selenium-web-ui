@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Abdel-AzeemHU.github.io/selenium-web-ui",
+  "buildOrder" : 9,
+  "buildName" : "GitHub Actions Run #1643981643",
+  "buildUrl" : "https://github.com/Abdel-AzeemHU/selenium-web-ui/actions/runs/1643981643",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/9/"
+} ]
