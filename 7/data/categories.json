@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "Click A/B Testing link and check the Header and Content",
+        "uid" : "4181e6ed57d2b72a",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641055186565,
+          "stop" : 1641055187310,
+          "duration" : 745
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "invalid argument: File not found : /home/runner/work/selenium-web-ui/selenium-web-ui\\src\\main\\resources\\upload.txt\n  (Session info: headless chrome=96.0.4664.110)\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'fv-az129-782', ip: '10.1.0.180', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fb85439875617632e9df14493b9824f4, sendKeysToElement {id=050b840d-d710-4400-b6a9-6679565557b7, value=[Ljava.lang.CharSequence;@6c32b40e}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.KPhPXy}, goog:chromeOptions: {debuggerAddress: localhost:44961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44961/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (fb85439875617632e9df14493b9824f4)] -> id: file-upload]\nSession ID: fb85439875617632e9df14493b9824f4",
+      "children" : [ {
+        "name" : "Upload file and check if the file uploaded successfully",
+        "uid" : "1e4326e624cf1866",
+        "parentUid" : "dc23393bbc9be82de1a2f929f08b53f4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641055189190,
+          "stop" : 1641055189799,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc23393bbc9be82de1a2f929f08b53f4"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#uploaded\\-files\"}\n  (Session info: headless chrome=96.0.4664.110)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'fv-az129-782', ip: '10.1.0.180', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fb85439875617632e9df14493b9824f4, findElement {using=id, value=uploaded-files}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.KPhPXy}, goog:chromeOptions: {debuggerAddress: localhost:44961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44961/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fb85439875617632e9df14493b9824f4",
+      "children" : [ {
+        "name" : "Check if the file uploaded successfully",
+        "uid" : "dc957f4efc961a8e",
+        "parentUid" : "4c7ecc617ae2031bcca6658ecd242099",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641055189986,
+          "stop" : 1641055230091,
+          "duration" : 40105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c7ecc617ae2031bcca6658ecd242099"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

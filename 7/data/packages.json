@@ -1,0 +1,227 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.qabot",
+    "children" : [ {
+      "name" : "AddElementTest",
+      "children" : [ {
+        "name" : "testAddRemoveElements",
+        "uid" : "ab073d5290b8a75a",
+        "parentUid" : "db927b94e99b4653f557e7c9ca35c28c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186564,
+          "stop" : 1641055228313,
+          "duration" : 41749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db927b94e99b4653f557e7c9ca35c28c"
+    }, {
+      "name" : "CheckBoxesTest",
+      "children" : [ {
+        "name" : "checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected",
+        "uid" : "4d3e5d32a31b21a4",
+        "parentUid" : "5329291d98b072c92e8e60ce5302582c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186564,
+          "stop" : 1641055187417,
+          "duration" : 853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5329291d98b072c92e8e60ce5302582c"
+    }, {
+      "name" : "ContextMenuTest",
+      "children" : [ {
+        "name" : "performRightClickAndAcceptTheAlert",
+        "uid" : "505118da66dc3ab7",
+        "parentUid" : "d18559729359ad8cbc31fcd404fbb25b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186564,
+          "stop" : 1641055187641,
+          "duration" : 1077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d18559729359ad8cbc31fcd404fbb25b"
+    }, {
+      "name" : "DynamicLoadingTest",
+      "children" : [ {
+        "name" : "testDynamicLoadedPage",
+        "uid" : "43674be590006c2d",
+        "parentUid" : "dc8883feea248322ec904dd62b9c19c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186564,
+          "stop" : 1641055187281,
+          "duration" : 717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testHiddenContent",
+        "uid" : "fec45adbee9f0fd4",
+        "parentUid" : "dc8883feea248322ec904dd62b9c19c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055187335,
+          "stop" : 1641055193035,
+          "duration" : 5700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc8883feea248322ec904dd62b9c19c1"
+    }, {
+      "name" : "DomTest",
+      "children" : [ {
+        "name" : "validatePage",
+        "uid" : "3f0bc578f356416d",
+        "parentUid" : "9fff1cf867bb1649da9fb130f0e65111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186565,
+          "stop" : 1641055187355,
+          "duration" : 790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateColumnHeader",
+        "uid" : "3513b872bf47857c",
+        "parentUid" : "9fff1cf867bb1649da9fb130f0e65111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055187370,
+          "stop" : 1641055188280,
+          "duration" : 910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fff1cf867bb1649da9fb130f0e65111"
+    }, {
+      "name" : "ABTestingTest",
+      "children" : [ {
+        "name" : "testABTestingContentAndHeader",
+        "uid" : "4181e6ed57d2b72a",
+        "parentUid" : "049de07c3b47dd27e08e003423380137",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641055186565,
+          "stop" : 1641055187310,
+          "duration" : 745
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "049de07c3b47dd27e08e003423380137"
+    }, {
+      "name" : "BrokenImageTest",
+      "children" : [ {
+        "name" : "testPageHeader",
+        "uid" : "9ae4946313ef8153",
+        "parentUid" : "54be92379a7a02a70d2d49027c79f5d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186566,
+          "stop" : 1641055187306,
+          "duration" : 740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testBrokenImages",
+        "uid" : "18c7510053d4638b",
+        "parentUid" : "54be92379a7a02a70d2d49027c79f5d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055187328,
+          "stop" : 1641055187762,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54be92379a7a02a70d2d49027c79f5d6"
+    }, {
+      "name" : "FileUploadTest",
+      "children" : [ {
+        "name" : "checkFileUpload",
+        "uid" : "1e4326e624cf1866",
+        "parentUid" : "2d24caa2adc053114b35a6018ce9e8f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641055189190,
+          "stop" : 1641055189799,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkTheFileUploadSuccess",
+        "uid" : "dc957f4efc961a8e",
+        "parentUid" : "2d24caa2adc053114b35a6018ce9e8f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641055189986,
+          "stop" : 1641055230091,
+          "duration" : 40105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d24caa2adc053114b35a6018ce9e8f0"
+    }, {
+      "name" : "EntryAdTest",
+      "children" : [ {
+        "name" : "checkThePopupAppearance",
+        "uid" : "e796dd6a74e26ae7",
+        "parentUid" : "6701852da10ec06c01eda95b77a4e5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055189279,
+          "stop" : 1641055190106,
+          "duration" : 827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "closeThePopup",
+        "uid" : "d7afd5fc1bd255de",
+        "parentUid" : "6701852da10ec06c01eda95b77a4e5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055190109,
+          "stop" : 1641055190160,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6701852da10ec06c01eda95b77a4e5fb"
+    } ],
+    "uid" : "com.qabot"
+  } ],
+  "name" : "packages"
+}
