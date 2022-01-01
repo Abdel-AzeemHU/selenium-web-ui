@@ -23,7 +23,7 @@ public class FileUploadPage extends MasterPage{
     @FindBy(css = "#drag-drop-upload")
     private WebElement boxUploader;
 
-    @FindBy(id = "uploaded-files")
+    @FindBy(css = "#uploaded-files")
     private WebElement uploadedFileTxt;
 
     public String getTheHeaderText() {
@@ -39,7 +39,7 @@ public class FileUploadPage extends MasterPage{
     }
 
     public void uploadFile() {
-        chooseFileBtn.sendKeys(System.getProperty("user.dir") + "\\src\\main\\resources\\upload.txt");
+        chooseFileBtn.sendKeys(System.getProperty("user.dir") + "/src/main/resources/upload.txt");
         clickButton(uploadBtn);
         WaitUtils.waitVisibilityOf(driver, fileUploadHeaderTxt, 20);
 
