@@ -16,13 +16,17 @@ public class EntryAdPage extends MasterPage {
     private WebElement popup;
 
     @FindBy(css = "div[class='modal-title'] h3")
-    public WebElement popupHeaderTxt;
+    private WebElement popupHeaderTxt;
 
     @FindBy(css = "div[class='modal-body'] p")
     private WebElement popupBodyTxt;
 
     @FindBy(css = "div[class='modal-footer'] p")
     private WebElement closeBtn;
+
+    public String getTheHeaderText() {
+        return popupHeaderTxt.getText();
+    }
 
     @Step("Get the popup header text")
     public boolean getPopupHeaderText() {

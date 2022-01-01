@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="classes" thread-count="3">
+<suite name="All Test Suite" parallel="classes" thread-count="7">
     <listeners>
         <listener class-name="com.qabot.loggers.AllureListener" />
     </listeners>
@@ -13,6 +13,7 @@
             <class name="com.qabot.DynamicLoadingTest" />
             <class name="com.qabot.CheckBoxesTest"/>
             <class name="com.qabot.ContextMenuTest"/>
+            <class name="com.qabot.EntryAdTest"/>
         </classes>
     </test>
 </suite>
