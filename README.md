@@ -47,4 +47,5 @@ sudo apt-get update -qq -y
 sudo apt-get -qq --yes install podman
 
 pip3 install podman-compose
+sudo ln -s ~/.local/bin/podman-compose /usr/bin/podman-compose
 ```
