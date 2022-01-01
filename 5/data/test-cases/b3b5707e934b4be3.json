@@ -1,0 +1,188 @@
+{
+  "uid" : "b3b5707e934b4be3",
+  "name" : "Click context menu and perform the right click and accept the alert",
+  "fullName" : "com.qabot.ContextMenuTest.performRightClickAndAcceptTheAlert",
+  "historyId" : "d79739be709b4026649bcd4541e59204",
+  "time" : {
+    "start" : 1641053493620,
+    "stop" : 1641053494794,
+    "duration" : 1174
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641053493424,
+      "stop" : 1641053493427,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641053480207,
+      "stop" : 1641053493385,
+      "duration" : 13178
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Context Menu link to open class com.qabot.pages.ContextMenuPage page",
+      "time" : {
+        "start" : 1641053493648,
+        "stop" : 1641053494278,
+        "duration" : 630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Context Menu"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.ContextMenuPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641053494795,
+      "stop" : 1641053494936,
+      "duration" : 141
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.ContextMenuTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.ContextMenuTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "performRightClickAndAcceptTheAlert"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.ContextMenuTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-150"
+  }, {
+    "name" : "thread",
+    "value" : "2728@fv-az182-150.TestNG-test=Test name-4(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "75914bfa1cce8757",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/75914bfa1cce8757",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803468890,
+          "stop" : 1640803469356,
+          "duration" : 466
+        }
+      }, {
+        "uid" : "9aa85abfe1351cac",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/9aa85abfe1351cac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779438754,
+          "stop" : 1640779439265,
+          "duration" : 511
+        }
+      }, {
+        "uid" : "8bc399db7f6128dd",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/8bc399db7f6128dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545595556,
+          "stop" : 1640545596047,
+          "duration" : 491
+        }
+      }, {
+        "uid" : "269e47c22283c464",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/269e47c22283c464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540942539,
+          "stop" : 1640540943013,
+          "duration" : 474
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3b5707e934b4be3.json",
+  "parameterValues" : [ ]
+}

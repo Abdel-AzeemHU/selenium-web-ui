@@ -1,0 +1,203 @@
+{
+  "uid" : "d1807ccd5b5effcb",
+  "name" : "validate the page loads correctly",
+  "fullName" : "com.qabot.DynamicLoadingTest.testDynamicLoadedPage",
+  "historyId" : "efcef79467046ff5899dc9f83a942a2d",
+  "time" : {
+    "start" : 1641053493617,
+    "stop" : 1641053494446,
+    "duration" : 829
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641053493428,
+      "stop" : 1641053493428,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641053480203,
+      "stop" : 1641053493392,
+      "duration" : 13189
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Dynamic Loading link to open class com.qabot.pages.DynamicLoadingPage page",
+      "time" : {
+        "start" : 1641053493646,
+        "stop" : 1641053494339,
+        "duration" : 693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Dynamic Loading"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.DynamicLoadingPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "validate the right page",
+      "time" : {
+        "start" : 1641053494339,
+        "stop" : 1641053494445,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641053500312,
+      "stop" : 1641053500383,
+      "duration" : 71
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.DynamicLoadingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.DynamicLoadingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDynamicLoadedPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.DynamicLoadingTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-150"
+  }, {
+    "name" : "thread",
+    "value" : "2728@fv-az182-150.TestNG-test=Test name-7(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "6ddefd82d22368d9",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/6ddefd82d22368d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803470654,
+          "stop" : 1640803470885,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "e4e3ddd315dad168",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/e4e3ddd315dad168",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779441619,
+          "stop" : 1640779441802,
+          "duration" : 183
+        }
+      }, {
+        "uid" : "a9ec998f5d678cbb",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/a9ec998f5d678cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545597005,
+          "stop" : 1640545597225,
+          "duration" : 220
+        }
+      }, {
+        "uid" : "f5571514f3487326",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/f5571514f3487326",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540944736,
+          "stop" : 1640540944990,
+          "duration" : 254
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d1807ccd5b5effcb.json",
+  "parameterValues" : [ ]
+}

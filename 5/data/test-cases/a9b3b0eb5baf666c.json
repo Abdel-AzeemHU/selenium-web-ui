@@ -1,0 +1,272 @@
+{
+  "uid" : "a9b3b0eb5baf666c",
+  "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+  "fullName" : "com.qabot.AddElementTest.testAddRemoveElements",
+  "historyId" : "14cb2ccefd55ed69cd112ebe16770b81",
+  "time" : {
+    "start" : 1641053493620,
+    "stop" : 1641053535341,
+    "duration" : 41721
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641053480203,
+      "stop" : 1641053493394,
+      "duration" : 13191
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641053493438,
+      "stop" : 1641053493438,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Add/Remove Elements link to open class com.qabot.pages.AddElementPage page",
+      "time" : {
+        "start" : 1641053493650,
+        "stop" : 1641053494296,
+        "duration" : 646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Add/Remove Elements"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.AddElementPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the right page loads",
+      "time" : {
+        "start" : 1641053494299,
+        "stop" : 1641053494360,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click 'Add element' button to generate 'Delete' button instance",
+      "time" : {
+        "start" : 1641053494387,
+        "stop" : 1641053494933,
+        "duration" : 546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "n",
+        "value" : "3"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify there are the 3 'Delete' buttons",
+      "time" : {
+        "start" : 1641053494933,
+        "stop" : 1641053494996,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "n",
+        "value" : "3"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click each 'Delete' button to dismiss",
+      "time" : {
+        "start" : 1641053494996,
+        "stop" : 1641053495303,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify there are the 0 'Delete' buttons",
+      "time" : {
+        "start" : 1641053495303,
+        "stop" : 1641053535341,
+        "duration" : 40038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "n",
+        "value" : "0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641053535342,
+      "stop" : 1641053535417,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.AddElementTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.AddElementTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddRemoveElements"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.AddElementTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az182-150"
+  }, {
+    "name" : "thread",
+    "value" : "2728@fv-az182-150.TestNG-test=Test name-2(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3f1156030bff9af2",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/3f1156030bff9af2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803466706,
+          "stop" : 1640803507891,
+          "duration" : 41185
+        }
+      }, {
+        "uid" : "431dc66592f4271b",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/431dc66592f4271b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779436880,
+          "stop" : 1640779477866,
+          "duration" : 40986
+        }
+      }, {
+        "uid" : "65b0ed4479ec34c",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/65b0ed4479ec34c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545593992,
+          "stop" : 1640545634846,
+          "duration" : 40854
+        }
+      }, {
+        "uid" : "db3fdee54796891d",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/db3fdee54796891d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540940043,
+          "stop" : 1640540981055,
+          "duration" : 41012
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a9b3b0eb5baf666c.json",
+  "parameterValues" : [ ]
+}

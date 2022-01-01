@@ -1,0 +1,121 @@
+[ {
+  "uid" : "2a32d160a95a4d3a",
+  "name" : "Check the popup header and body text",
+  "time" : {
+    "start" : 1641053496119,
+    "stop" : 1641053496967,
+    "duration" : 848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3b5707e934b4be3",
+  "name" : "Click context menu and perform the right click and accept the alert",
+  "time" : {
+    "start" : 1641053493620,
+    "stop" : 1641053494794,
+    "duration" : 1174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb8339dd61ef119a",
+  "name" : "validate column header",
+  "time" : {
+    "start" : 1641053494632,
+    "stop" : 1641053495500,
+    "duration" : 868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "315a27d72a84ab30",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "time" : {
+    "start" : 1641053493616,
+    "stop" : 1641053494657,
+    "duration" : 1041
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2685d755d85b8a8",
+  "name" : "Validate number of broken images (2)",
+  "time" : {
+    "start" : 1641053494500,
+    "stop" : 1641053494919,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90b32248228b0e3f",
+  "name" : "validate the hidden content shows up with the right text",
+  "time" : {
+    "start" : 1641053494489,
+    "stop" : 1641053500305,
+    "duration" : 5816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1807ccd5b5effcb",
+  "name" : "validate the page loads correctly",
+  "time" : {
+    "start" : 1641053493617,
+    "stop" : 1641053494446,
+    "duration" : 829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8543cd1631fc2062",
+  "name" : "validate the right page",
+  "time" : {
+    "start" : 1641053493617,
+    "stop" : 1641053494629,
+    "duration" : 1012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9b3b0eb5baf666c",
+  "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+  "time" : {
+    "start" : 1641053493620,
+    "stop" : 1641053535341,
+    "duration" : 41721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2da9c6ab148669b6",
+  "name" : "Find images with broken links",
+  "time" : {
+    "start" : 1641053493617,
+    "stop" : 1641053494451,
+    "duration" : 834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "793f28e03057845c",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "time" : {
+    "start" : 1641053493619,
+    "stop" : 1641053494500,
+    "duration" : 881
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dd4d8ceb3b85875",
+  "name" : "Close the popup after verifying the header and body",
+  "time" : {
+    "start" : 1641053496971,
+    "stop" : 1641053497030,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
