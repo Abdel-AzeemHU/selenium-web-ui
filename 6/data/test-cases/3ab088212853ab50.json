@@ -1,0 +1,159 @@
+{
+  "uid" : "3ab088212853ab50",
+  "name" : "Check the popup header and body text",
+  "fullName" : "com.qabot.EntryAdTest.checkThePopupAppearance",
+  "historyId" : "10649428fc966c468382e994b1bdcb5e",
+  "time" : {
+    "start" : 1641053658166,
+    "stop" : 1641053659077,
+    "duration" : 911
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641053658159,
+      "stop" : 1641053658159,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Entry Ad link to open class com.qabot.pages.EntryAdPage page",
+      "time" : {
+        "start" : 1641053658167,
+        "stop" : 1641053658397,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Entry Ad"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.EntryAdPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get the popup header text",
+      "time" : {
+        "start" : 1641053658397,
+        "stop" : 1641053659023,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get the popup body text",
+      "time" : {
+        "start" : 1641053659024,
+        "stop" : 1641053659051,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.EntryAdTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.EntryAdTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkThePopupAppearance"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.EntryAdTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-782"
+  }, {
+    "name" : "thread",
+    "value" : "2789@fv-az129-782.TestNG-test=Test name-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2a32d160a95a4d3a",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/2a32d160a95a4d3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053496119,
+          "stop" : 1641053496967,
+          "duration" : 848
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3ab088212853ab50.json",
+  "parameterValues" : [ ]
+}

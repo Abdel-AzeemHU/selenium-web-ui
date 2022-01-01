@@ -1,0 +1,121 @@
+[ {
+  "uid" : "834186f2addeeb82",
+  "name" : "Upload file and check if the file uploaded successfully",
+  "time" : {
+    "start" : 1641053658098,
+    "stop" : 1641053658699,
+    "duration" : 601
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2e3663af2b0ecef",
+  "name" : "validate column header",
+  "time" : {
+    "start" : 1641053656129,
+    "stop" : 1641053657007,
+    "duration" : 878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "697eaeba07fa2832",
+  "name" : "validate the hidden content shows up with the right text",
+  "time" : {
+    "start" : 1641053655982,
+    "stop" : 1641053661787,
+    "duration" : 5805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db9d3f8a78141ff7",
+  "name" : "Click context menu and perform the right click and accept the alert",
+  "time" : {
+    "start" : 1641053655130,
+    "stop" : 1641053656434,
+    "duration" : 1304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90c3d15e60d12f4",
+  "name" : "Close the popup after verifying the header and body",
+  "time" : {
+    "start" : 1641053659081,
+    "stop" : 1641053659149,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ab088212853ab50",
+  "name" : "Check the popup header and body text",
+  "time" : {
+    "start" : 1641053658166,
+    "stop" : 1641053659077,
+    "duration" : 911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4485a6f9a99e4516",
+  "name" : "Find images with broken links",
+  "time" : {
+    "start" : 1641053655130,
+    "stop" : 1641053655924,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49431ab768ea9fd2",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "time" : {
+    "start" : 1641053655131,
+    "stop" : 1641053656222,
+    "duration" : 1091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67ebefca5cbd8374",
+  "name" : "validate the right page",
+  "time" : {
+    "start" : 1641053655134,
+    "stop" : 1641053656118,
+    "duration" : 984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b581eac7b32127f4",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "time" : {
+    "start" : 1641053655129,
+    "stop" : 1641053656059,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44cb4d7308770c40",
+  "name" : "Validate number of broken images (2)",
+  "time" : {
+    "start" : 1641053656010,
+    "stop" : 1641053656371,
+    "duration" : 361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b22c5a141ca1676",
+  "name" : "validate the page loads correctly",
+  "time" : {
+    "start" : 1641053655132,
+    "stop" : 1641053655973,
+    "duration" : 841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,167 @@
+{
+  "uid" : "b581eac7b32127f4",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "fullName" : "com.qabot.ABTestingTest.testABTestingContentAndHeader",
+  "historyId" : "bd0c0e6440c99e2d941d5a6de84b8ed4",
+  "time" : {
+    "start" : 1641053655129,
+    "stop" : 1641053656059,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641053654934,
+      "stop" : 1641053654934,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click A/B Testing link to open class com.qabot.pages.ABTestingPage page",
+      "time" : {
+        "start" : 1641053655161,
+        "stop" : 1641053655814,
+        "duration" : 653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "A/B Testing"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.ABTestingPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.ABTestingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.ABTestingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testABTestingContentAndHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.ABTestingTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-782"
+  }, {
+    "name" : "thread",
+    "value" : "2789@fv-az129-782.TestNG-test=Test name-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "793f28e03057845c",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/793f28e03057845c",
+        "status" : "failed",
+        "statusDetails" : "expected [true] but found [false]",
+        "time" : {
+          "start" : 1641053493619,
+          "stop" : 1641053494500,
+          "duration" : 881
+        }
+      }, {
+        "uid" : "b5e4fd9b31863ad5",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/b5e4fd9b31863ad5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803466706,
+          "stop" : 1640803467358,
+          "duration" : 652
+        }
+      }, {
+        "uid" : "205458161f1a1352",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/205458161f1a1352",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779436866,
+          "stop" : 1640779437554,
+          "duration" : 688
+        }
+      }, {
+        "uid" : "68a3e9771aa2733b",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/68a3e9771aa2733b",
+        "status" : "failed",
+        "statusDetails" : "expected [true] but found [false]",
+        "time" : {
+          "start" : 1640545593995,
+          "stop" : 1640545594398,
+          "duration" : 403
+        }
+      }, {
+        "uid" : "7d763370714d2734",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/7d763370714d2734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540940044,
+          "stop" : 1640540940682,
+          "duration" : 638
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b581eac7b32127f4.json",
+  "parameterValues" : [ ]
+}

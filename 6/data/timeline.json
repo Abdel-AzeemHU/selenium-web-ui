@@ -1,0 +1,189 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az129-782",
+    "children" : [ {
+      "name" : "2789@fv-az129-782.TestNG-test=Test name-6(20)",
+      "children" : [ {
+        "name" : "validate the right page",
+        "uid" : "67ebefca5cbd8374",
+        "parentUid" : "7940af1849fd00100967e513b7b7e303",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655134,
+          "stop" : 1641053656118,
+          "duration" : 984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validate column header",
+        "uid" : "2e3663af2b0ecef",
+        "parentUid" : "7940af1849fd00100967e513b7b7e303",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053656129,
+          "stop" : 1641053657007,
+          "duration" : 878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7940af1849fd00100967e513b7b7e303"
+    }, {
+      "name" : "2789@fv-az129-782.TestNG-test=Test name-5(19)",
+      "children" : [ {
+        "name" : "Validate number of broken images (2)",
+        "uid" : "44cb4d7308770c40",
+        "parentUid" : "be21373e7a7598aa6cdd62a9fd187b2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053656010,
+          "stop" : 1641053656371,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Find images with broken links",
+        "uid" : "4485a6f9a99e4516",
+        "parentUid" : "be21373e7a7598aa6cdd62a9fd187b2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655130,
+          "stop" : 1641053655924,
+          "duration" : 794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be21373e7a7598aa6cdd62a9fd187b2f"
+    }, {
+      "name" : "2789@fv-az129-782.TestNG-test=Test name-7(21)",
+      "children" : [ {
+        "name" : "validate the page loads correctly",
+        "uid" : "8b22c5a141ca1676",
+        "parentUid" : "1adc68b072f7e3bccce4af7ed4e5eb11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655132,
+          "stop" : 1641053655973,
+          "duration" : 841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validate the hidden content shows up with the right text",
+        "uid" : "697eaeba07fa2832",
+        "parentUid" : "1adc68b072f7e3bccce4af7ed4e5eb11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655982,
+          "stop" : 1641053661787,
+          "duration" : 5805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1adc68b072f7e3bccce4af7ed4e5eb11"
+    }, {
+      "name" : "2789@fv-az129-782.TestNG-test=Test name-3(17)",
+      "children" : [ {
+        "name" : "Upload file and check if the file uploaded successfully",
+        "uid" : "834186f2addeeb82",
+        "parentUid" : "3ae57eac0ed81f2872e5b3f3f60d0fa0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641053658098,
+          "stop" : 1641053658699,
+          "duration" : 601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+        "uid" : "49431ab768ea9fd2",
+        "parentUid" : "3ae57eac0ed81f2872e5b3f3f60d0fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655131,
+          "stop" : 1641053656222,
+          "duration" : 1091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ae57eac0ed81f2872e5b3f3f60d0fa0"
+    }, {
+      "name" : "2789@fv-az129-782.TestNG-test=Test name-1(15)",
+      "children" : [ {
+        "name" : "Close the popup after verifying the header and body",
+        "uid" : "90c3d15e60d12f4",
+        "parentUid" : "a919d2765dbcb022f975b8323fd67423",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053659081,
+          "stop" : 1641053659149,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check the popup header and body text",
+        "uid" : "3ab088212853ab50",
+        "parentUid" : "a919d2765dbcb022f975b8323fd67423",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053658166,
+          "stop" : 1641053659077,
+          "duration" : 911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click A/B Testing link and check the Header and Content",
+        "uid" : "b581eac7b32127f4",
+        "parentUid" : "a919d2765dbcb022f975b8323fd67423",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655129,
+          "stop" : 1641053656059,
+          "duration" : 930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a919d2765dbcb022f975b8323fd67423"
+    }, {
+      "name" : "2789@fv-az129-782.TestNG-test=Test name-4(18)",
+      "children" : [ {
+        "name" : "Click context menu and perform the right click and accept the alert",
+        "uid" : "db9d3f8a78141ff7",
+        "parentUid" : "084564e2562685b8c6047aae3b7439a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655130,
+          "stop" : 1641053656434,
+          "duration" : 1304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "084564e2562685b8c6047aae3b7439a3"
+    } ],
+    "uid" : "037ffe68c242453c755129b103ad43c8"
+  } ],
+  "name" : "timeline"
+}

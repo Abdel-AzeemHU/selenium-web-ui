@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Click A/B Testing link and check the Header and Content",
+    "uid" : "b581eac7b32127f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655129,
+      "stop" : 1641053656059,
+      "duration" : 930
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click context menu and perform the right click and accept the alert",
+    "uid" : "db9d3f8a78141ff7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655130,
+      "stop" : 1641053656434,
+      "duration" : 1304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Find images with broken links",
+    "uid" : "4485a6f9a99e4516",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655130,
+      "stop" : 1641053655924,
+      "duration" : 794
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+    "uid" : "49431ab768ea9fd2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655131,
+      "stop" : 1641053656222,
+      "duration" : 1091
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the page loads correctly",
+    "uid" : "8b22c5a141ca1676",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655132,
+      "stop" : 1641053655973,
+      "duration" : 841
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the right page",
+    "uid" : "67ebefca5cbd8374",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655134,
+      "stop" : 1641053656118,
+      "duration" : 984
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the hidden content shows up with the right text",
+    "uid" : "697eaeba07fa2832",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053655982,
+      "stop" : 1641053661787,
+      "duration" : 5805
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate number of broken images (2)",
+    "uid" : "44cb4d7308770c40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053656010,
+      "stop" : 1641053656371,
+      "duration" : 361
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate column header",
+    "uid" : "2e3663af2b0ecef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053656129,
+      "stop" : 1641053657007,
+      "duration" : 878
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Upload file and check if the file uploaded successfully",
+    "uid" : "834186f2addeeb82",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1641053658098,
+      "stop" : 1641053658699,
+      "duration" : 601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the popup header and body text",
+    "uid" : "3ab088212853ab50",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053658166,
+      "stop" : 1641053659077,
+      "duration" : 911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Close the popup after verifying the header and body",
+    "uid" : "90c3d15e60d12f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641053659081,
+      "stop" : 1641053659149,
+      "duration" : 68
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

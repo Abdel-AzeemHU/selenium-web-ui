@@ -1,0 +1,222 @@
+{
+  "uid" : "697eaeba07fa2832",
+  "name" : "validate the hidden content shows up with the right text",
+  "fullName" : "com.qabot.DynamicLoadingTest.testHiddenContent",
+  "historyId" : "856767441e97f02c4b85abfcab5ea9a0",
+  "time" : {
+    "start" : 1641053655982,
+    "stop" : 1641053661787,
+    "duration" : 5805
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641053655980,
+      "stop" : 1641053655980,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Example with index 1",
+      "time" : {
+        "start" : 1641053655982,
+        "stop" : 1641053656522,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "index",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get Section Header",
+      "time" : {
+        "start" : 1641053656522,
+        "stop" : 1641053656583,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get sub header",
+        "time" : {
+          "start" : 1641053656522,
+          "stop" : 1641053656583,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get hidden text",
+      "time" : {
+        "start" : 1641053656584,
+        "stop" : 1641053661787,
+        "duration" : 5203
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click 'Start' button",
+        "time" : {
+          "start" : 1641053656585,
+          "stop" : 1641053661786,
+          "duration" : 5201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.DynamicLoadingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.DynamicLoadingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHiddenContent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.DynamicLoadingTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-782"
+  }, {
+    "name" : "thread",
+    "value" : "2789@fv-az129-782.TestNG-test=Test name-7(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "90b32248228b0e3f",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/90b32248228b0e3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053494489,
+          "stop" : 1641053500305,
+          "duration" : 5816
+        }
+      }, {
+        "uid" : "c67c90def23290cf",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/c67c90def23290cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803470889,
+          "stop" : 1640803476260,
+          "duration" : 5371
+        }
+      }, {
+        "uid" : "89b740b740e0682",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/89b740b740e0682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779441805,
+          "stop" : 1640779447105,
+          "duration" : 5300
+        }
+      }, {
+        "uid" : "129853a70ab3dfc6",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/129853a70ab3dfc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545597228,
+          "stop" : 1640545602519,
+          "duration" : 5291
+        }
+      }, {
+        "uid" : "2634f7ef2bcc51d5",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/2634f7ef2bcc51d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540944992,
+          "stop" : 1640540950400,
+          "duration" : 5408
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "697eaeba07fa2832.json",
+  "parameterValues" : [ ]
+}
