@@ -1,5 +1,4 @@
 .idea/
-drivers/*
 target/
 allure-results/
 allure-report/
