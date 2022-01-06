@@ -1,0 +1,241 @@
+[ {
+  "uid" : "d482baa548d7b704",
+  "name" : "Validate the text inside the target cell",
+  "time" : {
+    "start" : 1641473033786,
+    "stop" : 1641473033916,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7992da94a667a611",
+  "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+  "time" : {
+    "start" : 1641473028471,
+    "stop" : 1641473070384,
+    "duration" : 41913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb200df7e45392db",
+  "name" : "Validate number of broken images (2)",
+  "time" : {
+    "start" : 1641473029330,
+    "stop" : 1641473029886,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de27bca5e78b3918",
+  "name" : "Validate the right page",
+  "time" : {
+    "start" : 1641473032080,
+    "stop" : 1641473033081,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a8eabb77c55264d",
+  "name" : "Invalid login",
+  "time" : {
+    "start" : 1641473034482,
+    "stop" : 1641473034910,
+    "duration" : 428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43f2c661fd404995",
+  "name" : "Close the popup after verifying the header and body",
+  "time" : {
+    "start" : 1641473033500,
+    "stop" : 1641473033709,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39c25b70a116f4b3",
+  "name" : "Show the checkbox",
+  "time" : {
+    "start" : 1641473072968,
+    "stop" : 1641473076090,
+    "duration" : 3122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de405ff8afdc3a8c",
+  "name" : "validate the page loads correctly",
+  "time" : {
+    "start" : 1641473032328,
+    "stop" : 1641473032893,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25d86015371ac70b",
+  "name" : "Success login",
+  "time" : {
+    "start" : 1641473032606,
+    "stop" : 1641473034479,
+    "duration" : 1873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13fa578903b58b1a",
+  "name" : "Check the popup header and body text",
+  "time" : {
+    "start" : 1641473032310,
+    "stop" : 1641473033494,
+    "duration" : 1184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7be08da7d6c210a6",
+  "name" : "validate the hidden content shows up with the right text",
+  "time" : {
+    "start" : 1641473032902,
+    "stop" : 1641473038684,
+    "duration" : 5782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50e90ae4d3ae66a8",
+  "name" : "Validate the text inside the target cell",
+  "time" : {
+    "start" : 1641473033919,
+    "stop" : 1641473033980,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be26e8a3001c9bf7",
+  "name" : "Click context menu and perform the right click and accept the alert",
+  "time" : {
+    "start" : 1641473028470,
+    "stop" : 1641473029541,
+    "duration" : 1071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44c6c2a680cee919",
+  "name" : "Click A/B Testing link and check the Header and Content",
+  "time" : {
+    "start" : 1641473028471,
+    "stop" : 1641473029618,
+    "duration" : 1147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cddb0117fc1c291",
+  "name" : "Check if the file uploaded successfully",
+  "time" : {
+    "start" : 1641473033600,
+    "stop" : 1641473033717,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "775ace9ba8bb5770",
+  "name" : "Upload file and check if the file uploaded successfully",
+  "time" : {
+    "start" : 1641473032172,
+    "stop" : 1641473033589,
+    "duration" : 1417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edf9fbc0c54e98de",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "time" : {
+    "start" : 1641473028467,
+    "stop" : 1641473029391,
+    "duration" : 924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32ac80451a295b62",
+  "name" : "Validate the text inside the target cell",
+  "time" : {
+    "start" : 1641473033983,
+    "stop" : 1641473034047,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c588cb322bf45bf5",
+  "name" : "Find images with broken links",
+  "time" : {
+    "start" : 1641473028467,
+    "stop" : 1641473029261,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83a92d1a105c1398",
+  "name" : "Hide the checkbox",
+  "time" : {
+    "start" : 1641473028468,
+    "stop" : 1641473072965,
+    "duration" : 44497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f588dc615329232a",
+  "name" : "Disable the text box",
+  "time" : {
+    "start" : 1641473079236,
+    "stop" : 1641473082344,
+    "duration" : 3108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b53eee80dcf54e7",
+  "name" : "validate column header",
+  "time" : {
+    "start" : 1641473029408,
+    "stop" : 1641473030431,
+    "duration" : 1023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77b97dbc97e9e690",
+  "name" : "Enable the text box",
+  "time" : {
+    "start" : 1641473076092,
+    "stop" : 1641473079233,
+    "duration" : 3141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41320995e4c26ee1",
+  "name" : "validate the right page",
+  "time" : {
+    "start" : 1641473028468,
+    "stop" : 1641473029405,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

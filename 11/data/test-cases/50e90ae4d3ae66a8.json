@@ -1,0 +1,182 @@
+{
+  "uid" : "50e90ae4d3ae66a8",
+  "name" : "Validate the text inside the target cell",
+  "fullName" : "com.qabot.LargeDOMTest.testCellText",
+  "historyId" : "db8ef7604fc449a7ec6848bfeec93ad1",
+  "time" : {
+    "start" : 1641473033919,
+    "stop" : 1641473033980,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641473030002,
+      "stop" : 1641473032056,
+      "duration" : 2054
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641473033917,
+      "stop" : 1641473033917,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get the target cell text",
+      "time" : {
+        "start" : 1641473033919,
+        "stop" : 1641473033980,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "row",
+        "value" : "7"
+      }, {
+        "name" : "column",
+        "value" : "49"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641473034051,
+      "stop" : 1641473034131,
+      "duration" : 80
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.LargeDOMTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.LargeDOMTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCellText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.LargeDOMTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-782"
+  }, {
+    "name" : "thread",
+    "value" : "2776@fv-az129-782.TestNG-test=Test name-5(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{row=7, column=49, cell=7.49}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e6587f42713bc870",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/10//#testresult/e6587f42713bc870",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641468115450,
+          "stop" : 1641468115631,
+          "duration" : 181
+        }
+      }, {
+        "uid" : "734abad30cb5646",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/9//#testresult/734abad30cb5646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641057127424,
+          "stop" : 1641057127523,
+          "duration" : 99
+        }
+      }, {
+        "uid" : "9c7948c6275bffad",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/9c7948c6275bffad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779448235,
+          "stop" : 1640779448293,
+          "duration" : 58
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "50e90ae4d3ae66a8.json",
+  "parameterValues" : [ "{row=7, column=49, cell=7.49}" ]
+}

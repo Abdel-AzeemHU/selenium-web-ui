@@ -1,0 +1,349 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az129-782",
+    "children" : [ {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-5(19)",
+      "children" : [ {
+        "name" : "Validate the right page",
+        "uid" : "de27bca5e78b3918",
+        "parentUid" : "1cb7e9522c8b60a11df7864aeb82b888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473032080,
+          "stop" : 1641473033081,
+          "duration" : 1001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate number of broken images (2)",
+        "uid" : "bb200df7e45392db",
+        "parentUid" : "1cb7e9522c8b60a11df7864aeb82b888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473029330,
+          "stop" : 1641473029886,
+          "duration" : 556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate the text inside the target cell",
+        "uid" : "50e90ae4d3ae66a8",
+        "parentUid" : "1cb7e9522c8b60a11df7864aeb82b888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473033919,
+          "stop" : 1641473033980,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{row=7, column=49, cell=7.49}" ]
+      }, {
+        "name" : "Validate the text inside the target cell",
+        "uid" : "32ac80451a295b62",
+        "parentUid" : "1cb7e9522c8b60a11df7864aeb82b888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473033983,
+          "stop" : 1641473034047,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{row=47, column=47, cell=47.47}" ]
+      }, {
+        "name" : "Find images with broken links",
+        "uid" : "c588cb322bf45bf5",
+        "parentUid" : "1cb7e9522c8b60a11df7864aeb82b888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028467,
+          "stop" : 1641473029261,
+          "duration" : 794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate the text inside the target cell",
+        "uid" : "d482baa548d7b704",
+        "parentUid" : "1cb7e9522c8b60a11df7864aeb82b888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473033786,
+          "stop" : 1641473033916,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{row=1, column=3, cell=1.3}" ]
+      } ],
+      "uid" : "1cb7e9522c8b60a11df7864aeb82b888"
+    }, {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-3(17)",
+      "children" : [ {
+        "name" : "validate the hidden content shows up with the right text",
+        "uid" : "7be08da7d6c210a6",
+        "parentUid" : "f1631441682eb58a3bbcaaaf0f6da392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473032902,
+          "stop" : 1641473038684,
+          "duration" : 5782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validate the page loads correctly",
+        "uid" : "de405ff8afdc3a8c",
+        "parentUid" : "f1631441682eb58a3bbcaaaf0f6da392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473032328,
+          "stop" : 1641473032893,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+        "uid" : "edf9fbc0c54e98de",
+        "parentUid" : "f1631441682eb58a3bbcaaaf0f6da392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028467,
+          "stop" : 1641473029391,
+          "duration" : 924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1631441682eb58a3bbcaaaf0f6da392"
+    }, {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-6(20)",
+      "children" : [ {
+        "name" : "validate column header",
+        "uid" : "9b53eee80dcf54e7",
+        "parentUid" : "28e207d9be3480db4dc9891f8009d0d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473029408,
+          "stop" : 1641473030431,
+          "duration" : 1023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Success login",
+        "uid" : "25d86015371ac70b",
+        "parentUid" : "28e207d9be3480db4dc9891f8009d0d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473032606,
+          "stop" : 1641473034479,
+          "duration" : 1873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validate the right page",
+        "uid" : "41320995e4c26ee1",
+        "parentUid" : "28e207d9be3480db4dc9891f8009d0d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028468,
+          "stop" : 1641473029405,
+          "duration" : 937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Invalid login",
+        "uid" : "3a8eabb77c55264d",
+        "parentUid" : "28e207d9be3480db4dc9891f8009d0d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473034482,
+          "stop" : 1641473034910,
+          "duration" : 428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28e207d9be3480db4dc9891f8009d0d2"
+    }, {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-1(15)",
+      "children" : [ {
+        "name" : "Upload file and check if the file uploaded successfully",
+        "uid" : "775ace9ba8bb5770",
+        "parentUid" : "697407d90d194fcd3252c1ced75a5d38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473032172,
+          "stop" : 1641473033589,
+          "duration" : 1417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check if the file uploaded successfully",
+        "uid" : "2cddb0117fc1c291",
+        "parentUid" : "697407d90d194fcd3252c1ced75a5d38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473033600,
+          "stop" : 1641473033717,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click A/B Testing link and check the Header and Content",
+        "uid" : "44c6c2a680cee919",
+        "parentUid" : "697407d90d194fcd3252c1ced75a5d38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028471,
+          "stop" : 1641473029618,
+          "duration" : 1147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "697407d90d194fcd3252c1ced75a5d38"
+    }, {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-4(18)",
+      "children" : [ {
+        "name" : "Check the popup header and body text",
+        "uid" : "13fa578903b58b1a",
+        "parentUid" : "512ada725692ef21c5a55031d31f245d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473032310,
+          "stop" : 1641473033494,
+          "duration" : 1184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click context menu and perform the right click and accept the alert",
+        "uid" : "be26e8a3001c9bf7",
+        "parentUid" : "512ada725692ef21c5a55031d31f245d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028470,
+          "stop" : 1641473029541,
+          "duration" : 1071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Close the popup after verifying the header and body",
+        "uid" : "43f2c661fd404995",
+        "parentUid" : "512ada725692ef21c5a55031d31f245d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473033500,
+          "stop" : 1641473033709,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "512ada725692ef21c5a55031d31f245d"
+    }, {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-7(21)",
+      "children" : [ {
+        "name" : "Hide the checkbox",
+        "uid" : "83a92d1a105c1398",
+        "parentUid" : "1e7ebcd190645e338e9b48ea199c8382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028468,
+          "stop" : 1641473072965,
+          "duration" : 44497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Show the checkbox",
+        "uid" : "39c25b70a116f4b3",
+        "parentUid" : "1e7ebcd190645e338e9b48ea199c8382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473072968,
+          "stop" : 1641473076090,
+          "duration" : 3122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enable the text box",
+        "uid" : "77b97dbc97e9e690",
+        "parentUid" : "1e7ebcd190645e338e9b48ea199c8382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473076092,
+          "stop" : 1641473079233,
+          "duration" : 3141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Disable the text box",
+        "uid" : "f588dc615329232a",
+        "parentUid" : "1e7ebcd190645e338e9b48ea199c8382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473079236,
+          "stop" : 1641473082344,
+          "duration" : 3108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e7ebcd190645e338e9b48ea199c8382"
+    }, {
+      "name" : "2776@fv-az129-782.TestNG-test=Test name-2(16)",
+      "children" : [ {
+        "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+        "uid" : "7992da94a667a611",
+        "parentUid" : "357c910950e4218344301e21f6f1956c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028471,
+          "stop" : 1641473070384,
+          "duration" : 41913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "357c910950e4218344301e21f6f1956c"
+    } ],
+    "uid" : "037ffe68c242453c755129b103ad43c8"
+  } ],
+  "name" : "timeline"
+}
