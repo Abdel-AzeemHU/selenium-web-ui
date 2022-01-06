@@ -16,6 +16,7 @@ public class MasterPage {
     public MasterPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
+        jse = (JavascriptExecutor) driver;
     }
 
     protected void clickButton(WebElement button)

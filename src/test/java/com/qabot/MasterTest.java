@@ -3,7 +3,6 @@ package com.qabot;
 import com.qabot.pages.HomePage;
 import com.qabot.utils.DriverGenerator;
 import com.qabot.utils.PropertyReader;
-import com.qabot.utils.WaitUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
