@@ -46,13 +46,6 @@ jobs:
         name: maven-report
         path: "target/surefire-reports/*"
 
-    - name: Upload allure-results directory
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-results
-        path: "allure-results/*"
-
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()

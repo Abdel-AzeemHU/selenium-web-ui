@@ -18,6 +18,9 @@
             <class name="com.qabot.LargeDOMTest" />
             <class name="com.qabot.EntryAdTest"/>
             <class name="com.qabot.FileUploadTest"/>
+            <class name="com.qabot.SliderTest" />
+            <class name="com.qabot.FakerTest" />
+            <class name="com.qabot.FrameTest" />
         </classes>
     </test>
 </suite>
