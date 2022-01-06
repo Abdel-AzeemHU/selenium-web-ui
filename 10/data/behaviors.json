@@ -1,0 +1,382 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Click context menu and perform the right click and accept the alert",
+    "uid" : "1a678e7d3b4703a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468107868,
+      "stop" : 1641468109300,
+      "duration" : 1432
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+    "uid" : "921df389a1fb0b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468107868,
+      "stop" : 1641468150105,
+      "duration" : 42237
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the right page",
+    "uid" : "2d1dcf3e21f687dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468107868,
+      "stop" : 1641468108926,
+      "duration" : 1058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+    "uid" : "a7949aef4ab85389",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468107868,
+      "stop" : 1641468109246,
+      "duration" : 1378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testFaker",
+    "uid" : "23ffcf2f015a02ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468107870,
+      "stop" : 1641468110058,
+      "duration" : 2188
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click A/B Testing link and check the Header and Content",
+    "uid" : "affaf2306f086165",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1641468107870,
+      "stop" : 1641468110060,
+      "duration" : 2190
+    },
+    "flaky" : true,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Find images with broken links",
+    "uid" : "49c981e08f6c90b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468107871,
+      "stop" : 1641468108897,
+      "duration" : 1026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate column header",
+    "uid" : "c801de9bba5b9400",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468108932,
+      "stop" : 1641468110095,
+      "duration" : 1163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate number of broken images (2)",
+    "uid" : "80d9129b12c25185",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468108992,
+      "stop" : 1641468109419,
+      "duration" : 427
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Hide the checkbox",
+    "uid" : "3d60bf5060d639fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468112242,
+      "stop" : 1641468156700,
+      "duration" : 44458
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the popup header and body text",
+    "uid" : "a2302b40965a0c70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468112251,
+      "stop" : 1641468113820,
+      "duration" : 1569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the page loads correctly",
+    "uid" : "6af6281e537003b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468112298,
+      "stop" : 1641468113050,
+      "duration" : 752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Upload file and check if the file uploaded successfully",
+    "uid" : "e9108c12566000f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468112578,
+      "stop" : 1641468114135,
+      "duration" : 1557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate the page",
+    "uid" : "cd40679cd61c3675",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468112633,
+      "stop" : 1641468113354,
+      "duration" : 721
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate the right page",
+    "uid" : "ea693954371e3da4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468112802,
+      "stop" : 1641468114446,
+      "duration" : 1644
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validate the hidden content shows up with the right text",
+    "uid" : "b0899d088a6b4b3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468113087,
+      "stop" : 1641468119018,
+      "duration" : 5931
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Frame sub page",
+    "uid" : "c3417ebf9211170f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468113356,
+      "stop" : 1641468116821,
+      "duration" : 3465
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Close the popup after verifying the header and body",
+    "uid" : "368301646473bfc4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468113839,
+      "stop" : 1641468114065,
+      "duration" : 226
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check if the file uploaded successfully",
+    "uid" : "9d65e0a52b139100",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468114138,
+      "stop" : 1641468114239,
+      "duration" : 101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate the text inside the target cell",
+    "uid" : "bcc42af01f5f3f08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468115274,
+      "stop" : 1641468115436,
+      "duration" : 162
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{row=1, column=3, cell=1.3}" ]
+  }, {
+    "name" : "Validate the text inside the target cell",
+    "uid" : "e6587f42713bc870",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468115450,
+      "stop" : 1641468115631,
+      "duration" : 181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{row=7, column=49, cell=7.49}" ]
+  }, {
+    "name" : "Validate the text inside the target cell",
+    "uid" : "237ed30777694df4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468115640,
+      "stop" : 1641468115813,
+      "duration" : 173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{row=47, column=47, cell=47.47}" ]
+  }, {
+    "name" : "Success login",
+    "uid" : "1de877de091700db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468116020,
+      "stop" : 1641468117609,
+      "duration" : 1589
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Move the slider to a value",
+    "uid" : "14d8136c5f6f565f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468116047,
+      "stop" : 1641468117150,
+      "duration" : 1103
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Set the slider value",
+    "uid" : "7aa9d43799e1dc5e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468117152,
+      "stop" : 1641468117200,
+      "duration" : 48
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Invalid login",
+    "uid" : "d809ea4d5e9e82f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468117611,
+      "stop" : 1641468118045,
+      "duration" : 434
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Show the checkbox",
+    "uid" : "22a11218cd0cedb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468156703,
+      "stop" : 1641468159827,
+      "duration" : 3124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Enable the text box",
+    "uid" : "59593023fdfa851f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468159829,
+      "stop" : 1641468163023,
+      "duration" : 3194
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Disable the text box",
+    "uid" : "4ff5ae6d31a55d54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641468163028,
+      "stop" : 1641468166194,
+      "duration" : 3166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

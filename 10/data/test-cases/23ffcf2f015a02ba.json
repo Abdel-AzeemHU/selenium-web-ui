@@ -1,0 +1,110 @@
+{
+  "uid" : "23ffcf2f015a02ba",
+  "name" : "testFaker",
+  "fullName" : "com.qabot.FakerTest.testFaker",
+  "historyId" : "ef3808fcd8929fe4dc9a979bdb68c4d5",
+  "time" : {
+    "start" : 1641468107870,
+    "stop" : 1641468110058,
+    "duration" : 2188
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641468098769,
+      "stop" : 1641468107711,
+      "duration" : 8942
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641468107711,
+      "stop" : 1641468107712,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641468110059,
+      "stop" : 1641468110148,
+      "duration" : 89
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.FakerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.FakerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFaker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.FakerTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-768"
+  }, {
+    "name" : "thread",
+    "value" : "2853@fv-az190-768.TestNG-test=Test name-5(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23ffcf2f015a02ba.json",
+  "parameterValues" : [ ]
+}

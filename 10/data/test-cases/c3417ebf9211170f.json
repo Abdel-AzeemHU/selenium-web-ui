@@ -1,0 +1,189 @@
+{
+  "uid" : "c3417ebf9211170f",
+  "name" : "Test Frame sub page",
+  "fullName" : "com.qabot.FrameTest.testSubPage",
+  "historyId" : "d56a193d8d37ed40cae7a75a1773080a",
+  "time" : {
+    "start" : 1641468113356,
+    "stop" : 1641468116821,
+    "duration" : 3465
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641468110204,
+      "stop" : 1641468112620,
+      "duration" : 2416
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641468113355,
+      "stop" : 1641468113355,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click iFrame link",
+      "time" : {
+        "start" : 1641468113433,
+        "stop" : 1641468115653,
+        "duration" : 2220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Validate IFrame page with the editor component",
+      "time" : {
+        "start" : 1641468115653,
+        "stop" : 1641468115755,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Type text and check the paragraph",
+      "time" : {
+        "start" : 1641468115755,
+        "stop" : 1641468116821,
+        "duration" : 1066
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select menu and menu option",
+        "time" : {
+          "start" : 1641468115756,
+          "stop" : 1641468116370,
+          "duration" : 614
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "menu",
+          "value" : "File"
+        }, {
+          "name" : "option",
+          "value" : "New document"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "randomText",
+        "value" : "Voluptas consequuntur quia quas."
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641468116822,
+      "stop" : 1641468116910,
+      "duration" : 88
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.FrameTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.FrameTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSubPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.FrameTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-768"
+  }, {
+    "name" : "thread",
+    "value" : "2853@fv-az190-768.TestNG-test=Test name-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3417ebf9211170f.json",
+  "parameterValues" : [ ]
+}

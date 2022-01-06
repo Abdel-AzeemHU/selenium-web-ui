@@ -1,0 +1,230 @@
+{
+  "uid" : "c801de9bba5b9400",
+  "name" : "validate column header",
+  "fullName" : "com.qabot.DomTest.validateColumnHeader",
+  "historyId" : "3f6580e6355d332aa7fd325a86bf132a",
+  "time" : {
+    "start" : 1641468108932,
+    "stop" : 1641468110095,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641468108930,
+      "stop" : 1641468108930,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1641468098773,
+      "stop" : 1641468107666,
+      "duration" : 8893
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Print and validate table headers",
+      "time" : {
+        "start" : 1641468108932,
+        "stop" : 1641468110094,
+        "duration" : 1162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "index",
+        "value" : "0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1641468110096,
+      "stop" : 1641468110288,
+      "duration" : 192
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.DomTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.DomTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateColumnHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.DomTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-768"
+  }, {
+    "name" : "thread",
+    "value" : "2853@fv-az190-768.TestNG-test=Test name-7(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "78356a2151a73929",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/9//#testresult/78356a2151a73929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641057121492,
+          "stop" : 1641057122614,
+          "duration" : 1122
+        }
+      }, {
+        "uid" : "2b48a7154fb64a60",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/8//#testresult/2b48a7154fb64a60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641056718364,
+          "stop" : 1641056719635,
+          "duration" : 1271
+        }
+      }, {
+        "uid" : "3513b872bf47857c",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/7//#testresult/3513b872bf47857c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055187370,
+          "stop" : 1641055188280,
+          "duration" : 910
+        }
+      }, {
+        "uid" : "2e3663af2b0ecef",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/6//#testresult/2e3663af2b0ecef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053656129,
+          "stop" : 1641053657007,
+          "duration" : 878
+        }
+      }, {
+        "uid" : "eb8339dd61ef119a",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/eb8339dd61ef119a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053494632,
+          "stop" : 1641053495500,
+          "duration" : 868
+        }
+      }, {
+        "uid" : "36d368a5ecda2940",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/36d368a5ecda2940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803470949,
+          "stop" : 1640803471307,
+          "duration" : 358
+        }
+      }, {
+        "uid" : "a31253ffda354a16",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/a31253ffda354a16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779440521,
+          "stop" : 1640779440878,
+          "duration" : 357
+        }
+      }, {
+        "uid" : "89aec0b0c1f046f1",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/89aec0b0c1f046f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545597064,
+          "stop" : 1640545597407,
+          "duration" : 343
+        }
+      }, {
+        "uid" : "861b826c3d2f7eb",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/861b826c3d2f7eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540945098,
+          "stop" : 1640540945416,
+          "duration" : 318
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c801de9bba5b9400.json",
+  "parameterValues" : [ ]
+}
