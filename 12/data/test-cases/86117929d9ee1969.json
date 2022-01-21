@@ -1,0 +1,251 @@
+{
+  "uid" : "86117929d9ee1969",
+  "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+  "fullName" : "com.qabot.CheckBoxesTest.checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected",
+  "historyId" : "b8856f8cec92366b315f044ae371a794",
+  "time" : {
+    "start" : 1642804837138,
+    "stop" : 1642804838070,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1642804825746,
+      "stop" : 1642804836938,
+      "duration" : 11192
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1642804836992,
+      "stop" : 1642804836992,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Checkboxes link to open class com.qabot.pages.CheckBoxesPage page",
+      "time" : {
+        "start" : 1642804837203,
+        "stop" : 1642804837825,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Checkboxes"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.CheckBoxesPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1642804838072,
+      "stop" : 1642804838211,
+      "duration" : 139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkTheFirstCheckboxUnselectedAndSecondCheckboxSelected"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.CheckBoxesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-245"
+  }, {
+    "name" : "thread",
+    "value" : "2986@fv-az173-245.TestNG-test=Test name-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "edf9fbc0c54e98de",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/11//#testresult/edf9fbc0c54e98de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028467,
+          "stop" : 1641473029391,
+          "duration" : 924
+        }
+      }, {
+        "uid" : "a7949aef4ab85389",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/10//#testresult/a7949aef4ab85389",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641468107868,
+          "stop" : 1641468109246,
+          "duration" : 1378
+        }
+      }, {
+        "uid" : "a535ad539981251",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/9//#testresult/a535ad539981251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641057120344,
+          "stop" : 1641057121610,
+          "duration" : 1266
+        }
+      }, {
+        "uid" : "7c5a5daff3dd1773",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/8//#testresult/7c5a5daff3dd1773",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641056717159,
+          "stop" : 1641056718510,
+          "duration" : 1351
+        }
+      }, {
+        "uid" : "4d3e5d32a31b21a4",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/7//#testresult/4d3e5d32a31b21a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055186564,
+          "stop" : 1641055187417,
+          "duration" : 853
+        }
+      }, {
+        "uid" : "49431ab768ea9fd2",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/6//#testresult/49431ab768ea9fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053655131,
+          "stop" : 1641053656222,
+          "duration" : 1091
+        }
+      }, {
+        "uid" : "315a27d72a84ab30",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/315a27d72a84ab30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053493616,
+          "stop" : 1641053494657,
+          "duration" : 1041
+        }
+      }, {
+        "uid" : "1373bfe680815d3b",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/4//#testresult/1373bfe680815d3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640803466709,
+          "stop" : 1640803467379,
+          "duration" : 670
+        }
+      }, {
+        "uid" : "2c22d09cf4f6a2c1",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/2c22d09cf4f6a2c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779436870,
+          "stop" : 1640779437550,
+          "duration" : 680
+        }
+      }, {
+        "uid" : "850b8b183b7c992",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/2//#testresult/850b8b183b7c992",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640545593992,
+          "stop" : 1640545594466,
+          "duration" : 474
+        }
+      }, {
+        "uid" : "8c7739b4448e546a",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/1//#testresult/8c7739b4448e546a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640540940044,
+          "stop" : 1640540940687,
+          "duration" : 643
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86117929d9ee1969.json",
+  "parameterValues" : [ ]
+}

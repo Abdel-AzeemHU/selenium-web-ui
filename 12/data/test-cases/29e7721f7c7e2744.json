@@ -1,0 +1,209 @@
+{
+  "uid" : "29e7721f7c7e2744",
+  "name" : "Close the popup after verifying the header and body",
+  "fullName" : "com.qabot.EntryAdTest.closeThePopup",
+  "historyId" : "672ab7eeb67546a7e42c118a454582f2",
+  "time" : {
+    "start" : 1642804842204,
+    "stop" : 1642804842402,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1642804842186,
+      "stop" : 1642804842186,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1642804838519,
+      "stop" : 1642804840715,
+      "duration" : 2196
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close the popup",
+      "time" : {
+        "start" : 1642804842204,
+        "stop" : 1642804842402,
+        "duration" : 198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1642804842403,
+      "stop" : 1642804842535,
+      "duration" : 132
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.EntryAdTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.EntryAdTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "closeThePopup"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.EntryAdTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-245"
+  }, {
+    "name" : "thread",
+    "value" : "2986@fv-az173-245.TestNG-test=Test name-6(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "43f2c661fd404995",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/11//#testresult/43f2c661fd404995",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473033500,
+          "stop" : 1641473033709,
+          "duration" : 209
+        }
+      }, {
+        "uid" : "368301646473bfc4",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/10//#testresult/368301646473bfc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641468113839,
+          "stop" : 1641468114065,
+          "duration" : 226
+        }
+      }, {
+        "uid" : "dcd456e3b4983d1",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/9//#testresult/dcd456e3b4983d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641057126125,
+          "stop" : 1641057126399,
+          "duration" : 274
+        }
+      }, {
+        "uid" : "b0ddb76eac7e73be",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/8//#testresult/b0ddb76eac7e73be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641056722571,
+          "stop" : 1641056722651,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "d7afd5fc1bd255de",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/7//#testresult/d7afd5fc1bd255de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641055190109,
+          "stop" : 1641055190160,
+          "duration" : 51
+        }
+      }, {
+        "uid" : "90c3d15e60d12f4",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/6//#testresult/90c3d15e60d12f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053659081,
+          "stop" : 1641053659149,
+          "duration" : 68
+        }
+      }, {
+        "uid" : "7dd4d8ceb3b85875",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/5//#testresult/7dd4d8ceb3b85875",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641053496971,
+          "stop" : 1641053497030,
+          "duration" : 59
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "29e7721f7c7e2744.json",
+  "parameterValues" : [ ]
+}

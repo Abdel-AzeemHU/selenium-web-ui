@@ -1,0 +1,248 @@
+{
+  "uid" : "e009137cbb7be78f",
+  "name" : "Hide the checkbox",
+  "fullName" : "com.qabot.DynamicControlTest.testRemoveCheckbox",
+  "historyId" : "34d2cfcbd800a30ee5d1d87257f65e66",
+  "time" : {
+    "start" : 1642804840944,
+    "stop" : 1642804885096,
+    "duration" : 44152
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1642804840918,
+      "stop" : 1642804840918,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1642804838236,
+      "stop" : 1642804840917,
+      "duration" : 2681
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Dynamic Controls link to open class com.qabot.pages.DynamicControlsPage page",
+      "time" : {
+        "start" : 1642804840944,
+        "stop" : 1642804841548,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Dynamic Controls"
+      }, {
+        "name" : "page",
+        "value" : "class com.qabot.pages.DynamicControlsPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "validate the right page",
+      "time" : {
+        "start" : 1642804841548,
+        "stop" : 1642804841604,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click remove button to hide the checkbox",
+      "time" : {
+        "start" : 1642804841604,
+        "stop" : 1642804885051,
+        "duration" : 43447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get checkbox message",
+      "time" : {
+        "start" : 1642804885052,
+        "stop" : 1642804885075,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get the text of Add / Remove button",
+      "time" : {
+        "start" : 1642804885075,
+        "stop" : 1642804885095,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1642804894442,
+      "stop" : 1642804894508,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.DynamicControlTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.DynamicControlTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRemoveCheckbox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.DynamicControlTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-245"
+  }, {
+    "name" : "thread",
+    "value" : "2986@fv-az173-245.TestNG-test=Test name-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "83a92d1a105c1398",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/11//#testresult/83a92d1a105c1398",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641473028468,
+          "stop" : 1641473072965,
+          "duration" : 44497
+        }
+      }, {
+        "uid" : "3d60bf5060d639fc",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/10//#testresult/3d60bf5060d639fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641468112242,
+          "stop" : 1641468156700,
+          "duration" : 44458
+        }
+      }, {
+        "uid" : "9bf66afd3769d77",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/9//#testresult/9bf66afd3769d77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641057120355,
+          "stop" : 1641057165074,
+          "duration" : 44719
+        }
+      }, {
+        "uid" : "3b81cf220ca0730d",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/3//#testresult/3b81cf220ca0730d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640779440452,
+          "stop" : 1640779484214,
+          "duration" : 43762
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e009137cbb7be78f.json",
+  "parameterValues" : [ ]
+}

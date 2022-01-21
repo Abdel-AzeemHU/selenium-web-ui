@@ -1,0 +1,130 @@
+{
+  "uid" : "9b8e36aabe980279",
+  "name" : "testFaker",
+  "fullName" : "com.qabot.FakerTest.testFaker",
+  "historyId" : "ef3808fcd8929fe4dc9a979bdb68c4d5",
+  "time" : {
+    "start" : 1642804837137,
+    "stop" : 1642804838634,
+    "duration" : 1497
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1642804825745,
+      "stop" : 1642804836963,
+      "duration" : 11218
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1642804836991,
+      "stop" : 1642804836994,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1642804838635,
+      "stop" : 1642804838726,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qabot.FakerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qabot.FakerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFaker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qabot.FakerTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-245"
+  }, {
+    "name" : "thread",
+    "value" : "2986@fv-az173-245.TestNG-test=Test name-5(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "23ffcf2f015a02ba",
+        "reportUrl" : "https://Abdel-AzeemHU.github.io/selenium-web-ui/10//#testresult/23ffcf2f015a02ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641468107870,
+          "stop" : 1641468110058,
+          "duration" : 2188
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9b8e36aabe980279.json",
+  "parameterValues" : [ ]
+}

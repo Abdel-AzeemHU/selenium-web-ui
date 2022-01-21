@@ -1,0 +1,450 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "Test name",
+      "children" : [ {
+        "name" : "com.qabot.FakerTest",
+        "children" : [ {
+          "name" : "testFaker",
+          "uid" : "9b8e36aabe980279",
+          "parentUid" : "7f682eff172d83c1ca56e7d45b98e1f5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837137,
+            "stop" : 1642804838634,
+            "duration" : 1497
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7f682eff172d83c1ca56e7d45b98e1f5"
+      }, {
+        "name" : "com.qabot.ABTestingTest",
+        "children" : [ {
+          "name" : "Click A/B Testing link and check the Header and Content",
+          "uid" : "855168657a0c5f5d",
+          "parentUid" : "f4312c8c24b42cbdc88b67b5376cc7b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837138,
+            "stop" : 1642804838182,
+            "duration" : 1044
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f4312c8c24b42cbdc88b67b5376cc7b7"
+      }, {
+        "name" : "com.qabot.CheckBoxesTest",
+        "children" : [ {
+          "name" : "Click on Checkboxes and check the first one is unchecked and the second one is checked",
+          "uid" : "86117929d9ee1969",
+          "parentUid" : "b047b94bfff45c0ad9057f7cbcca6936",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837138,
+            "stop" : 1642804838070,
+            "duration" : 932
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b047b94bfff45c0ad9057f7cbcca6936"
+      }, {
+        "name" : "com.qabot.AddElementTest",
+        "children" : [ {
+          "name" : "Click add element (n) times and then dismiss all 'Delete' buttons",
+          "uid" : "4dc458fb0f838e81",
+          "parentUid" : "7d2a3983390b70e6d08ab4f5d7cb610e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837142,
+            "stop" : 1642804878941,
+            "duration" : 41799
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d2a3983390b70e6d08ab4f5d7cb610e"
+      }, {
+        "name" : "com.qabot.BrokenImageTest",
+        "children" : [ {
+          "name" : "Find images with broken links",
+          "uid" : "5cd8d02667277187",
+          "parentUid" : "a4d0a502e11ae263488e822520a690f9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837142,
+            "stop" : 1642804838016,
+            "duration" : 874
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Validate number of broken images (2)",
+          "uid" : "6456c1cd3d1e718f",
+          "parentUid" : "a4d0a502e11ae263488e822520a690f9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804838043,
+            "stop" : 1642804838440,
+            "duration" : 397
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a4d0a502e11ae263488e822520a690f9"
+      }, {
+        "name" : "com.qabot.ContextMenuTest",
+        "children" : [ {
+          "name" : "Click context menu and perform the right click and accept the alert",
+          "uid" : "9a98143876967bc4",
+          "parentUid" : "eb94c07ff9afc2fdee032da79c0c7647",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837146,
+            "stop" : 1642804838358,
+            "duration" : 1212
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eb94c07ff9afc2fdee032da79c0c7647"
+      }, {
+        "name" : "com.qabot.DomTest",
+        "children" : [ {
+          "name" : "validate the right page",
+          "uid" : "e3e883c35398a101",
+          "parentUid" : "d6388be4dedd2bff85fa8972ac8a1f43",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804837146,
+            "stop" : 1642804838091,
+            "duration" : 945
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validate column header",
+          "uid" : "42789403604fa0e5",
+          "parentUid" : "d6388be4dedd2bff85fa8972ac8a1f43",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804838102,
+            "stop" : 1642804838784,
+            "duration" : 682
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6388be4dedd2bff85fa8972ac8a1f43"
+      }, {
+        "name" : "com.qabot.FrameTest",
+        "children" : [ {
+          "name" : "Validate the page",
+          "uid" : "99838a75c404afd3",
+          "parentUid" : "a1db0e72f4d9993ceee4c1bd61a7856b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840317,
+            "stop" : 1642804840965,
+            "duration" : 648
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test Frame sub page",
+          "uid" : "42480a832f26da32",
+          "parentUid" : "a1db0e72f4d9993ceee4c1bd61a7856b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840971,
+            "stop" : 1642804843839,
+            "duration" : 2868
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a1db0e72f4d9993ceee4c1bd61a7856b"
+      }, {
+        "name" : "com.qabot.EntryAdTest",
+        "children" : [ {
+          "name" : "Check the popup header and body text",
+          "uid" : "2bafcde95c4bbe4f",
+          "parentUid" : "ae55b03d19c6f890904b0e3e8ea0643f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840725,
+            "stop" : 1642804842186,
+            "duration" : 1461
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Close the popup after verifying the header and body",
+          "uid" : "29e7721f7c7e2744",
+          "parentUid" : "ae55b03d19c6f890904b0e3e8ea0643f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804842204,
+            "stop" : 1642804842402,
+            "duration" : 198
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ae55b03d19c6f890904b0e3e8ea0643f"
+      }, {
+        "name" : "com.qabot.FileUploadTest",
+        "children" : [ {
+          "name" : "Upload file and check if the file uploaded successfully",
+          "uid" : "47cb368a4740db83",
+          "parentUid" : "d9bab432ddfa7676af08aa59b3f30a3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840740,
+            "stop" : 1642804841929,
+            "duration" : 1189
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check if the file uploaded successfully",
+          "uid" : "eae95a0f36e76042",
+          "parentUid" : "d9bab432ddfa7676af08aa59b3f30a3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804841934,
+            "stop" : 1642804842035,
+            "duration" : 101
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d9bab432ddfa7676af08aa59b3f30a3f"
+      }, {
+        "name" : "com.qabot.DynamicLoadingTest",
+        "children" : [ {
+          "name" : "validate the page loads correctly",
+          "uid" : "359658a265672405",
+          "parentUid" : "5301fc6c06e8bdbfac4f01f58f009845",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840803,
+            "stop" : 1642804841468,
+            "duration" : 665
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validate the hidden content shows up with the right text",
+          "uid" : "f8c2becfe7a1ee5b",
+          "parentUid" : "5301fc6c06e8bdbfac4f01f58f009845",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804841482,
+            "stop" : 1642804847100,
+            "duration" : 5618
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5301fc6c06e8bdbfac4f01f58f009845"
+      }, {
+        "name" : "com.qabot.LargeDOMTest",
+        "children" : [ {
+          "name" : "Validate the right page",
+          "uid" : "f8bf098777c8a371",
+          "parentUid" : "0c6cd2fb99e9adbdbe43cdb1e902b9c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840935,
+            "stop" : 1642804842159,
+            "duration" : 1224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Validate the text inside the target cell",
+          "uid" : "6c097e3f384d6728",
+          "parentUid" : "0c6cd2fb99e9adbdbe43cdb1e902b9c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804842757,
+            "stop" : 1642804842906,
+            "duration" : 149
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{row=1, column=3, cell=1.3}" ]
+        }, {
+          "name" : "Validate the text inside the target cell",
+          "uid" : "31e9a95ce389a27a",
+          "parentUid" : "0c6cd2fb99e9adbdbe43cdb1e902b9c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804842918,
+            "stop" : 1642804842998,
+            "duration" : 80
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{row=7, column=49, cell=7.49}" ]
+        }, {
+          "name" : "Validate the text inside the target cell",
+          "uid" : "29fe692259716c31",
+          "parentUid" : "0c6cd2fb99e9adbdbe43cdb1e902b9c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804843001,
+            "stop" : 1642804843085,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{row=47, column=47, cell=47.47}" ]
+        } ],
+        "uid" : "0c6cd2fb99e9adbdbe43cdb1e902b9c3"
+      }, {
+        "name" : "com.qabot.DynamicControlTest",
+        "children" : [ {
+          "name" : "Hide the checkbox",
+          "uid" : "e009137cbb7be78f",
+          "parentUid" : "b4ea69518f7ce3f49eff08845f3112dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804840944,
+            "stop" : 1642804885096,
+            "duration" : 44152
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Show the checkbox",
+          "uid" : "f87360aa04fd27d4",
+          "parentUid" : "b4ea69518f7ce3f49eff08845f3112dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804885098,
+            "stop" : 1642804888204,
+            "duration" : 3106
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Enable the text box",
+          "uid" : "5b60097a0ffdbd94",
+          "parentUid" : "b4ea69518f7ce3f49eff08845f3112dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804888207,
+            "stop" : 1642804891336,
+            "duration" : 3129
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Disable the text box",
+          "uid" : "8d8e2b914d527136",
+          "parentUid" : "b4ea69518f7ce3f49eff08845f3112dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804891339,
+            "stop" : 1642804894441,
+            "duration" : 3102
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b4ea69518f7ce3f49eff08845f3112dc"
+      }, {
+        "name" : "com.qabot.LoginTest",
+        "children" : [ {
+          "name" : "Success login",
+          "uid" : "32e6661d8d85ba6",
+          "parentUid" : "631e12a7ffe42484d456f63e5fce7adb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804843628,
+            "stop" : 1642804844919,
+            "duration" : 1291
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Invalid login",
+          "uid" : "2099f815764685ea",
+          "parentUid" : "631e12a7ffe42484d456f63e5fce7adb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804844921,
+            "stop" : 1642804845280,
+            "duration" : 359
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "631e12a7ffe42484d456f63e5fce7adb"
+      }, {
+        "name" : "com.qabot.SliderTest",
+        "children" : [ {
+          "name" : "Move the slider to a value",
+          "uid" : "7eaac2df6af9566",
+          "parentUid" : "5a284b41c3694ae20af301f47adc0a99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804844117,
+            "stop" : 1642804844839,
+            "duration" : 722
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Set the slider value",
+          "uid" : "eeaafb1b80b0d33b",
+          "parentUid" : "5a284b41c3694ae20af301f47adc0a99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642804844842,
+            "stop" : 1642804844880,
+            "duration" : 38
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5a284b41c3694ae20af301f47adc0a99"
+      } ],
+      "uid" : "07679d572d07ccc082ba88b4edeebb93"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ],
+  "name" : "suites"
+}
