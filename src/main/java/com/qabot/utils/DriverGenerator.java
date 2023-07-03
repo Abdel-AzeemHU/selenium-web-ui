@@ -65,7 +65,6 @@ public class DriverGenerator {
         chromePrefs.put("credentials_enable_service", false);
         chromePrefs.put("profile.password_manager_enabled", false);
         options.setExperimentalOption("prefs", chromePrefs);
-        // options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         options.setExperimentalOption("useAutomationExtension",false);
         if (headless) {
